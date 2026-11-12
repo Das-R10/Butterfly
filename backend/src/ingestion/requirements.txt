@@ -1,0 +1,28 @@
+# ── Phase 1 (install these first) ────────────────────────────────────────────
+crewai==0.80.0               # Agent orchestration
+crewai-tools==0.17.0         # CrewAI tool extensions
+scikit-learn==1.5.0          # TF-IDF + cosine similarity for Phase 1 scoring
+vaderSentiment==3.3.2        # Fast sentiment scoring
+loguru==0.7.2                # Logging
+python-dotenv==1.0.1         # Environment variable loading
+
+# ── Phase 2 onwards (add when needed) ────────────────────────────────────────
+# praw==7.7.1                # Reddit API
+# tweepy==4.14.0             # X/Twitter API
+# litellm==1.35.0            # Unified LLM interface (for cloud models)
+# sentence-transformers==3.0.1  # Semantic embeddings (upgrade from TF-IDF)
+# faiss-cpu==1.8.0           # Vector similarity search
+# fastapi==0.111.0           # REST API
+# uvicorn==0.30.0            # ASGI server
+# celery==5.4.0              # Async task queue
+# redis==5.0.4               # Celery broker
+# sqlalchemy==2.0.30         # ORM
+# psycopg2-binary==2.9.9     # PostgreSQL
+
+# ── Phase 2 additions ─────────────────────────────────────────────────────────
+gdeltdoc>=1.2.0              # GDELT DOC API client (free, no key)
+requests>=2.31.0             # HTTP for direct GDELT calls
+pandas>=2.0.0                # Required by gdeltdoc
+praw>=7.7.1                  # Reddit API (add key to .env when approved)
+# pip install newsdata       # NewsData.io (free 200/day — add NEWSDATA_API_KEY)
+# pip install gnews          # GNews (free 100/day — add GNEWS_API_KEY)

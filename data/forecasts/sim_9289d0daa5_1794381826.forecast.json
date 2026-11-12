@@ -1,0 +1,19 @@
+{
+  "simulation_id": "sim_9289d0daa5_1794381826",
+  "event_title": "On January 20, 2025, DeepSeek released its R1 reasoning...",
+  "research_question": "Given this initial event and the information currently available, what are the most plausible consequences that could emerge over time through interconnected behavioural and systemic effects?",
+  "created_at": "2026-11-11T07:30:40.719189Z",
+  "simulation_status": "completed",
+  "leading_scenario": "baseline",
+  "scenario_probabilities": {
+    "baseline": 0.4826,
+    "positive": 0.2153,
+    "negative": 0.2478,
+    "extreme": 0.0543
+  },
+  "verdict_headline": "Most Plausible Trajectory: Baseline Trajectory — Contained Spillover & Gradual Adaptation (48% heuristic weight)",
+  "verdict_confidence": 0.519,
+  "is_mock_only": false,
+  "status": "open",
+  "resolution": null
+}

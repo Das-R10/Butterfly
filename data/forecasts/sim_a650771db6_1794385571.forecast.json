@@ -1,0 +1,19 @@
+{
+  "simulation_id": "sim_a650771db6_1794385571",
+  "event_title": "Jensen Huang–NVIDIA Leadership Controversy",
+  "research_question": "Given this initial event and the information currently available, what are the most plausible consequences that could emerge over time through interconnected behavioural and systemic effects?",
+  "created_at": "2026-11-11T08:32:14.250589Z",
+  "simulation_status": "completed",
+  "leading_scenario": "baseline",
+  "scenario_probabilities": {
+    "baseline": 0.4701,
+    "positive": 0.2834,
+    "negative": 0.1888,
+    "extreme": 0.0577
+  },
+  "verdict_headline": "Most Plausible Trajectory: Baseline Trajectory — Contained Spillover & Gradual Adaptation (47% heuristic weight)",
+  "verdict_confidence": 0.517,
+  "is_mock_only": false,
+  "status": "open",
+  "resolution": null
+}

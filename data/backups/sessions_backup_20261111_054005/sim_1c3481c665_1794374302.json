@@ -1,0 +1,4230 @@
+{
+  "simulation_id": "sim_1c3481c665_1794374302",
+  "event_title": "Supply chain cyberattack",
+  "signal_text": "Supply chain cyberattack",
+  "config": {
+    "signal": "Supply chain cyberattack",
+    "event_title": null,
+    "source_url": null,
+    "max_iterations": 3,
+    "model_a": "qwen3.5:4b",
+    "model_b": "gemma3:4b",
+    "provider_a": null,
+    "provider_b": null,
+    "population_ceiling": 1.0,
+    "churn_rate": 0.08,
+    "external_weight": 0.4,
+    "run_mode": "simulation"
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 1,
+          "source_url": null,
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.244,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.3203,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.4444,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.3055,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.435,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2973,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.4056,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3395,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.4078,
+        "internal_contagion_score": 0.3546,
+        "effective_spread_potential": 0.3759,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.244,
+          "skeptic_debunker": 0.3203,
+          "pattern_seeker": 0.4444,
+          "doomer": 0.3055,
+          "amplifier_influencer": 0.435,
+          "mainstream_public": 0.2973,
+          "engaged_subcultures": 0.4056,
+          "external_media_broadcast": 0.3395
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.244,
+            "activation_pct": 24.4,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.203,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.2,
+              "conviction_factor": 0.36,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.28,
+              "mean_emotional_charge": 0.2,
+              "mean_model_estimated_credibility": 0.85,
+              "mean_evidence_grounding_score": 0.925,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.15,
+              "transmission_weight": 0.203,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2886
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.3203,
+            "activation_pct": 32.0,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.3706,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.6,
+              "conviction_factor": 0.68,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.38,
+              "mean_emotional_charge": 0.15,
+              "mean_model_estimated_credibility": 0.75,
+              "mean_evidence_grounding_score": 0.9,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.2,
+              "transmission_weight": 0.3706,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.132
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.4444,
+            "activation_pct": 44.4,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.476,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.1482
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.3055,
+            "activation_pct": 30.6,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.2324,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.9,
+              "conviction_factor": 0.92,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.72,
+              "mean_emotional_charge": 0.9,
+              "mean_model_estimated_credibility": 0.65,
+              "mean_evidence_grounding_score": 0.2565,
+              "mean_evidence_penalty": 0.4,
+              "mean_uncertainty": 0.65,
+              "transmission_weight": 0.2324,
+              "evidence_statuses": [
+                "unsupported",
+                "unsupported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3094
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.435,
+            "activation_pct": 43.5,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.476,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2546
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2973,
+            "activation_pct": 29.7,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.1358
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3808
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.1421
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.2038
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.0813
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.4056,
+            "activation_pct": 40.6,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.4046
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3332
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.1511
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3395,
+            "activation_pct": 34.0,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3395,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 1,
+        "p_external": 0.0304,
+        "q_internal": 0.2741,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.0492,
+        "active_adoption": 0.048,
+        "adoption_velocity": 0.0328,
+        "attention_indicator": 0.5913,
+        "attention_vs_adoption_ratio": 12.32,
+        "dt": 1.0,
+        "initial_n0": 0.0152,
+        "formula_derivation": "p=0.0304 (from Meso ext_score 0.408: 0.01 + 0.05*ext); q=0.2741 (from Meso int_score 0.355: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0152; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 1,
+        "macro_summary": "Active adoption reached 4.8% of population (expanding steadily, net velocity: +0.033/cycle, churn: 8.0%). Attention Index is at 59.1% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.55. Evidence audit: 4 supported, 4 inferred, 2 unverified.",
+        "dominant_framing": "[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+        "polarization_index": 0.5541,
+        "prompt_context_for_next_round": "--- MACRO FEEDBACK FROM ROUND 1 ---\n• VERIFIED SOURCE EVIDENCE: \"Supply chain cyberattack...\"\n• PREVIOUS ROUND LEADING HYPOTHESIS (Unverified): \"[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.\"\n• Claim Audit: 4 supported by source | 4 inferred | 2 unsupported.\n• Public Adoption: 4.8% active adherence (expanding steadily).\n• Attention Atmosphere: 59.1% public buzz — High Media Hype (Conversational buzz drastically outpaces behavioral adoption).\n• Network Polarization: 0.55 (divergence across skeptics vs believers).\n• ALERT: Amplification Warning: 2 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence.\nGUARDRAILS FOR ROUND 2:\n- Ground all analyses strictly in verified facts. Do NOT treat prior round hypotheses as established facts.\n- Challenge or verify previous speculations; do not amplify unverified claims without evidence.\n- Factor community momentum (4.8%) and fatigue (8.0%) into your response.",
+        "claim_verification_audit": {
+          "supported": 4,
+          "inferred": 4,
+          "unsupported": 2,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": 0.0,
+          "credibility_drift": 0.0,
+          "uncertainty_drift": 0.0,
+          "activation_drift": 0.0,
+          "adoption_drift": 0.0,
+          "attention_drift": 0.0
+        },
+        "iteration_change_summary": "Baseline Iteration 1: Evaluated 10 valid interpretations directly from raw source signal (active adoption 4.8%, attention 59.1%, polarization 0.55).",
+        "amplification_warning": true,
+        "warning_details": "Amplification Warning: 2 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence."
+      }
+    },
+    {
+      "iteration": 2,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 2,
+          "source_url": null,
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.244,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.3203,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.4444,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.3055,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.435,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2973,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.4056,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3395,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.4078,
+        "internal_contagion_score": 0.3546,
+        "effective_spread_potential": 0.3759,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.244,
+          "skeptic_debunker": 0.3203,
+          "pattern_seeker": 0.4444,
+          "doomer": 0.3055,
+          "amplifier_influencer": 0.435,
+          "mainstream_public": 0.2973,
+          "engaged_subcultures": 0.4056,
+          "external_media_broadcast": 0.3395
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.244,
+            "activation_pct": 24.4,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.203,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.2,
+              "conviction_factor": 0.36,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.28,
+              "mean_emotional_charge": 0.2,
+              "mean_model_estimated_credibility": 0.85,
+              "mean_evidence_grounding_score": 0.925,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.15,
+              "transmission_weight": 0.203,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2886
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.3203,
+            "activation_pct": 32.0,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.3706,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.6,
+              "conviction_factor": 0.68,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.38,
+              "mean_emotional_charge": 0.15,
+              "mean_model_estimated_credibility": 0.75,
+              "mean_evidence_grounding_score": 0.9,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.2,
+              "transmission_weight": 0.3706,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.132
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.4444,
+            "activation_pct": 44.4,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.476,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.1482
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.3055,
+            "activation_pct": 30.6,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.2324,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.9,
+              "conviction_factor": 0.92,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.72,
+              "mean_emotional_charge": 0.9,
+              "mean_model_estimated_credibility": 0.65,
+              "mean_evidence_grounding_score": 0.2565,
+              "mean_evidence_penalty": 0.4,
+              "mean_uncertainty": 0.65,
+              "transmission_weight": 0.2324,
+              "evidence_statuses": [
+                "unsupported",
+                "unsupported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3094
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.435,
+            "activation_pct": 43.5,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.476,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2546
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2973,
+            "activation_pct": 29.7,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.1358
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3808
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.1421
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.2038
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.0813
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.4056,
+            "activation_pct": 40.6,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.4046
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3332
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.1511
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3395,
+            "activation_pct": 34.0,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3395,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 2,
+        "p_external": 0.0304,
+        "q_internal": 0.2741,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.0909,
+        "active_adoption": 0.0859,
+        "adoption_velocity": 0.0379,
+        "attention_indicator": 0.5913,
+        "attention_vs_adoption_ratio": 6.89,
+        "dt": 1.0,
+        "initial_n0": 0.0152,
+        "formula_derivation": "p=0.0304 (from Meso ext_score 0.408: 0.01 + 0.05*ext); q=0.2741 (from Meso int_score 0.355: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0152; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 2,
+        "macro_summary": "Active adoption reached 8.6% of population (expanding steadily, net velocity: +0.038/cycle, churn: 8.0%). Attention Index is at 59.1% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.55. Evidence audit: 4 supported, 4 inferred, 2 unverified.",
+        "dominant_framing": "[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+        "polarization_index": 0.5541,
+        "prompt_context_for_next_round": "--- MACRO FEEDBACK FROM ROUND 2 ---\n• VERIFIED SOURCE EVIDENCE: \"Supply chain cyberattack...\"\n• PREVIOUS ROUND LEADING HYPOTHESIS (Unverified): \"[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.\"\n• Claim Audit: 4 supported by source | 4 inferred | 2 unsupported.\n• Public Adoption: 8.6% active adherence (expanding steadily).\n• Attention Atmosphere: 59.1% public buzz — High Media Hype (Conversational buzz drastically outpaces behavioral adoption).\n• Network Polarization: 0.55 (divergence across skeptics vs believers).\n• ALERT: Amplification Warning: 2 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence.\nGUARDRAILS FOR ROUND 3:\n- Ground all analyses strictly in verified facts. Do NOT treat prior round hypotheses as established facts.\n- Challenge or verify previous speculations; do not amplify unverified claims without evidence.\n- Factor community momentum (8.6%) and fatigue (8.0%) into your response.",
+        "claim_verification_audit": {
+          "supported": 4,
+          "inferred": 4,
+          "unsupported": 2,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": 0.0,
+          "credibility_drift": 0.0,
+          "uncertainty_drift": 0.0,
+          "activation_drift": 0.0,
+          "adoption_drift": 0.0379,
+          "attention_drift": 0.0
+        },
+        "iteration_change_summary": "Iteration 2 vs Iteration 1: Mean stance shifted +0.000, credibility +0.000, uncertainty +0.000, active adoption +3.8%, attention +0.0%. Change driven by injected Round 1 macro consensus, claim audit, and Bass imitation/churn integration.",
+        "amplification_warning": true,
+        "warning_details": "Amplification Warning: 2 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence."
+      }
+    },
+    {
+      "iteration": 3,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "mock",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 843,
+          "stance": 0.2,
+          "virality": 0.28,
+          "credibility": 0.85,
+          "emotional_charge": 0.2,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.925,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.203,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source signal corroborates baseline protocol execution without verified escalation."
+          ],
+          "uncertainty": 0.15,
+          "claims": [
+            "Baseline institutional protocols remain active",
+            "Secondary market friction observed without systemic failure"
+          ],
+          "primary_narrative": "Verified state channels indicate institutional protocol adherence, though secondary market ripples require close observation.",
+          "key_arguments": [
+            "Multi-source verification confirms standard diplomatic protocol.",
+            "Historical precedent suggests containment within multilateral frameworks."
+          ],
+          "narrative_tags": [
+            "institutional_review",
+            "policy_response",
+            "measured_assessment"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 826,
+          "stance": -0.6,
+          "virality": 0.38,
+          "credibility": 0.75,
+          "emotional_charge": 0.15,
+          "model_estimated_credibility": 0.75,
+          "evidence_grounding_score": 0.9,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3706,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Source text contains unverified public reactions that lack sensor or logistical backing."
+          ],
+          "uncertainty": 0.2,
+          "claims": [
+            "Sensational claims exceed empirical base rates",
+            "Logistical evidence does not corroborate acute crisis framing"
+          ],
+          "primary_narrative": "The claim relies on uncorroborated primary claims and misinterprets baseline operational friction as an acute escalation.",
+          "key_arguments": [
+            "Base rates for this event type indicate media sensationalism.",
+            "Lacks independent corroboration from primary logistical data."
+          ],
+          "narrative_tags": [
+            "debunked",
+            "unverified_speculation",
+            "base_rate_fallacy"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 888,
+          "stance": 0.9,
+          "virality": 0.72,
+          "credibility": 0.4,
+          "emotional_charge": 0.9,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.2565,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.2324,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Identified as a worst-case hypothesis; source signal does not establish immediate systemic collapse."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Systemic interdependence creates vulnerability to cascade failure (Hypothesis)",
+            "Institutional response time may prove insufficient (Risk Scenario)"
+          ],
+          "primary_narrative": "The systemic guardrails have failed; cascading supply failures and institutional paralysis make a major breakdown inevitable.",
+          "key_arguments": [
+            "Interdependent infrastructure cannot withstand a sustained shock.",
+            "Parallels 1914 and 2008 cascade dynamics before total collapse."
+          ],
+          "narrative_tags": [
+            "systemic_fragility",
+            "cascade_failure",
+            "crisis_inevitable"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "mock",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 0.0,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 874,
+          "stance": 0.75,
+          "virality": 0.83,
+          "credibility": 0.6,
+          "emotional_charge": 0.75,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.476,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Signal timeline aligns with broader OSINT anomalies, though coordinated intent remains an inference."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "Anomalous timing correlates with prior logistical shifts",
+            "Hypothesizes systemic realignment rather than random disruption"
+          ],
+          "primary_narrative": "This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+          "key_arguments": [
+            "Correlates with anomalous logistical maneuvers observed 3 weeks prior.",
+            "Fits broader geopolitical realignment patterns ignored by mainstream channels."
+          ],
+          "narrative_tags": [
+            "hidden_connection",
+            "systemic_pivot",
+            "osint_correlation"
+          ],
+          "iteration": 3,
+          "source_url": null,
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.244,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.3203,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.4444,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.3055,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.435,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2973,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.4056,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3395,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.4078,
+        "internal_contagion_score": 0.3546,
+        "effective_spread_potential": 0.3759,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.244,
+          "skeptic_debunker": 0.3203,
+          "pattern_seeker": 0.4444,
+          "doomer": 0.3055,
+          "amplifier_influencer": 0.435,
+          "mainstream_public": 0.2973,
+          "engaged_subcultures": 0.4056,
+          "external_media_broadcast": 0.3395
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.244,
+            "activation_pct": 24.4,
+            "raw_influence": 0.4916,
+            "raw_external_inflow": 0.2886,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.203,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.2,
+              "conviction_factor": 0.36,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.28,
+              "mean_emotional_charge": 0.2,
+              "mean_model_estimated_credibility": 0.85,
+              "mean_evidence_grounding_score": 0.925,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.15,
+              "transmission_weight": 0.203,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.203) + 0.30·NormInboundFeedback(0.340) [Raw inflow=0.492].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2886
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.3203,
+            "activation_pct": 32.0,
+            "raw_influence": 0.5026,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.132,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.3706,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.203,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.6,
+              "conviction_factor": 0.68,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.38,
+              "mean_emotional_charge": 0.15,
+              "mean_model_estimated_credibility": 0.75,
+              "mean_evidence_grounding_score": 0.9,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.2,
+              "transmission_weight": 0.3706,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.371) + 0.30·NormInboundFeedback(0.203) [Raw inflow=0.503].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.132
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.4444,
+            "activation_pct": 44.4,
+            "raw_influence": 0.6242,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1482,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.476,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3706,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.371) [Raw inflow=0.624].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.1482
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.3055,
+            "activation_pct": 30.6,
+            "raw_influence": 0.5418,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.3094,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.2324,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.476,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.9,
+              "conviction_factor": 0.92,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.72,
+              "mean_emotional_charge": 0.9,
+              "mean_model_estimated_credibility": 0.65,
+              "mean_evidence_grounding_score": 0.2565,
+              "mean_evidence_penalty": 0.4,
+              "mean_uncertainty": 0.65,
+              "transmission_weight": 0.2324,
+              "evidence_statuses": [
+                "unsupported",
+                "unsupported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.232) + 0.30·NormInboundFeedback(0.476) [Raw inflow=0.542].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3094
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.435,
+            "activation_pct": 43.5,
+            "raw_influence": 0.7306,
+            "raw_external_inflow": 0.2546,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.476,
+            "external_contribution": 0.3395,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.75,
+              "conviction_factor": 0.8,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.83,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.45,
+              "transmission_weight": 0.476,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.476) + 0.30·NormInboundFeedback(0.339) [Raw inflow=0.731].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.2546
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2973,
+            "activation_pct": 29.7,
+            "raw_influence": 0.9439,
+            "raw_external_inflow": 0.5166,
+            "raw_internal_inflow": 0.4273,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.2084,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.208) [Raw unnormalized inflow=0.944, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3395,
+                "raw_weighted_signal": 0.1358
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3808
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.203,
+                "raw_weighted_signal": 0.1421
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.3706,
+                "raw_weighted_signal": 0.2038
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.0813
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.4056,
+            "activation_pct": 40.6,
+            "raw_influence": 0.8889,
+            "raw_external_inflow": 0.4046,
+            "raw_internal_inflow": 0.4843,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.476,
+            "internal_contribution": 0.3587,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.476) + 0.60·NormPeer(0.359) [Raw unnormalized inflow=0.889, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.4046
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.476,
+                "raw_weighted_signal": 0.3332
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.2324,
+                "raw_weighted_signal": 0.1511
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3395,
+            "activation_pct": 34.0,
+            "raw_influence": 0.3395,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3395,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 3,
+        "p_external": 0.0304,
+        "q_internal": 0.2741,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.1412,
+        "active_adoption": 0.1293,
+        "adoption_velocity": 0.0434,
+        "attention_indicator": 0.5913,
+        "attention_vs_adoption_ratio": 4.57,
+        "dt": 1.0,
+        "initial_n0": 0.0152,
+        "formula_derivation": "p=0.0304 (from Meso ext_score 0.408: 0.01 + 0.05*ext); q=0.2741 (from Meso int_score 0.355: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0152; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 3,
+        "macro_summary": "Active adoption reached 12.9% of population (expanding steadily, net velocity: +0.043/cycle, churn: 8.0%). Attention Index is at 59.1% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.55. Evidence audit: 4 supported, 4 inferred, 2 unverified.",
+        "dominant_framing": "[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+        "polarization_index": 0.5541,
+        "prompt_context_for_next_round": "SIMULATION_FINAL_CYCLE",
+        "claim_verification_audit": {
+          "supported": 4,
+          "inferred": 4,
+          "unsupported": 2,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": 0.0,
+          "credibility_drift": 0.0,
+          "uncertainty_drift": 0.0,
+          "activation_drift": 0.0,
+          "adoption_drift": 0.0434,
+          "attention_drift": 0.0
+        },
+        "iteration_change_summary": "Iteration 3 vs Iteration 2: Mean stance shifted +0.000, credibility +0.000, uncertainty +0.000, active adoption +4.3%, attention +0.0%. Change driven by injected Round 2 macro consensus, claim audit, and Bass imitation/churn integration.",
+        "amplification_warning": true,
+        "warning_details": "Amplification Warning: 2 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence."
+      }
+    }
+  ],
+  "model_agreement_score": 1.0,
+  "model_agreement_details": {
+    "available": true,
+    "score": 1.0,
+    "valid_pairs": 5,
+    "total_archetypes": 5,
+    "stance_agreement": 1.0,
+    "stance_correlation": 1.0,
+    "tag_semantic_similarity": 1.0,
+    "formula": "0.70 * mean(1 - |stance_A - stance_B|/2) + 0.30 * mean(Jaccard_tag_and_claim_tokens)",
+    "reason": null
+  },
+  "narrative_convergence_score": 0.0,
+  "narrative_convergence_details": {
+    "available": true,
+    "score": 0.0,
+    "var_initial": 0.307,
+    "var_final": 0.307,
+    "direction": "stable",
+    "formula": "1 - (Var(stance_K) / Var(stance_1)) for shrinking variance; 0.0 if variance expands (polarization).",
+    "reason": null
+  },
+  "dominant_narrative": "[INFERRED SPECULATION] This development is not isolated; it connects three prior supply disruptions and signals an orchestrated systemic pivot.",
+  "trajectory": {
+    "iterations": [
+      1,
+      2,
+      3
+    ],
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "cumulative_adoption": [
+      0.0492,
+      0.0909,
+      0.1412
+    ],
+    "active_adoption": [
+      0.048,
+      0.0859,
+      0.1293
+    ],
+    "adoption_velocity": [
+      0.0328,
+      0.0379,
+      0.0434
+    ],
+    "attention_indicator": [
+      0.5913,
+      0.5913,
+      0.5913
+    ],
+    "churn_loss": [
+      0.0038,
+      0.0069,
+      0.0103
+    ],
+    "churn_volume": [
+      0.0038,
+      0.0069,
+      0.0103
+    ]
+  },
+  "timestamp": "2026-11-11T05:18:22.362324Z",
+  "status": "completed",
+  "status_details": "All 30/30 archetype interpretations succeeded.",
+  "successful_interpretations_count": 30,
+  "expected_interpretations_count": 30,
+  "failed_models": [],
+  "model_diagnostics": [
+    {
+      "iteration": 1,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 843,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 826,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 888,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "mock",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 874,
+      "thinking_length": 0,
+      "duration_sec": 0.0,
+      "recovered": false
+    }
+  ],
+  "diagnostics": {
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "vram_total_mb": 8151.0,
+      "vram_used_mb": 0.0,
+      "vram_free_mb": 7891.0,
+      "driver_version": "596.13",
+      "verified": true,
+      "sequential_recommended": true,
+      "details": "NVIDIA GeForce RTX 5070 Laptop GPU (8151 MB VRAM, 7891 MB free). Sequential execution recommended."
+    },
+    "selected_models": {
+      "model_a": {
+        "provider": "mock",
+        "model": "qwen3.5:4b"
+      },
+      "model_b": {
+        "provider": "mock",
+        "model": "gemma3:4b"
+      }
+    },
+    "inference_duration_sec": 0.01,
+    "sequential_execution": true,
+    "provider_errors": []
+  }
+}

@@ -1,0 +1,4398 @@
+{
+  "simulation_id": "sim_476a7b912c_1794376307",
+  "event_title": "NVIDEA CEO CASE",
+  "signal_text": "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.\n\nAccording to Associated Press reporting, President Donald Trump said the FBI was looking into the matter. Huang acknowledged the affair and issued an apology to his wife and NVIDIA. The Associated Press also reported that The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing.\n\nThe situation has attracted attention because NVIDIA is a strategically important semiconductor company, its advanced AI chips are central to the global AI industry, and US-China technology relations remain sensitive.\n\nAnalyze the possible consequences for NVIDIA's corporate reputation, investor confidence, governance, national security scrutiny, employee morale, international business relationships and semiconductor industry sentiment.\n\nIMPORTANT EVIDENCE RULES:\n\n1. Distinguish the acknowledged affair from the separately attributed intelligence allegation.\n2. Attribute statements to their actual sources.\n3. Do not claim that an allegation is independently proven merely because it has been reported.\n4. Do not assume Jensen Huang committed espionage or that NVIDIA transferred confidential technology.\n5. Distinguish actual reported developments from hypothetical consequences.\n6. Identify what additional evidence would be needed to establish corporate misconduct or national security violations.\n\nModel this as an evolving information event, not as proof of wrongdoing.",
+  "config": {
+    "signal": "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.\n\nAccording to Associated Press reporting, President Donald Trump said the FBI was looking into the matter. Huang acknowledged the affair and issued an apology to his wife and NVIDIA. The Associated Press also reported that The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing.\n\nThe situation has attracted attention because NVIDIA is a strategically important semiconductor company, its advanced AI chips are central to the global AI industry, and US-China technology relations remain sensitive.\n\nAnalyze the possible consequences for NVIDIA's corporate reputation, investor confidence, governance, national security scrutiny, employee morale, international business relationships and semiconductor industry sentiment.\n\nIMPORTANT EVIDENCE RULES:\n\n1. Distinguish the acknowledged affair from the separately attributed intelligence allegation.\n2. Attribute statements to their actual sources.\n3. Do not claim that an allegation is independently proven merely because it has been reported.\n4. Do not assume Jensen Huang committed espionage or that NVIDIA transferred confidential technology.\n5. Distinguish actual reported developments from hypothetical consequences.\n6. Identify what additional evidence would be needed to establish corporate misconduct or national security violations.\n\nModel this as an evolving information event, not as proof of wrongdoing.",
+    "event_title": "NVIDEA CEO CASE",
+    "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+    "max_iterations": 3,
+    "model_a": "qwen3.5:4b",
+    "model_b": "gemma3:4b",
+    "provider_a": "ollama",
+    "provider_b": "ollama",
+    "population_ceiling": 1.0,
+    "churn_rate": 0.08,
+    "external_weight": 0.4,
+    "run_mode": "simulation"
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 25.511,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1908,
+          "stance": 0.35,
+          "virality": 0.85,
+          "credibility": 0.4,
+          "emotional_charge": 0.6,
+          "model_estimated_credibility": 0.4,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2519,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Associated Press reports President Trump stated the FBI was looking into the matter",
+            "NVIDIA CEO Jensen Huang acknowledged the affair and issued an apology",
+            "The New York Times cited US intelligence assessments alleging the woman was gathering information for Beijing"
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "An alleged extramarital affair between NVIDIA CEO Jensen Huang and a woman connected to Chinese intelligence is under FBI investigation.",
+            "US intelligence has assessed that the woman in question was gathering information for Beijing.",
+            "NVIDIA's advanced AI chips are strategically central to global AI industry dynamics."
+          ],
+          "primary_narrative": "While the personal conduct of Jensen Huang is acknowledged and under review, the core allegation of espionage remains an intelligence assessment rather than independently verified fact, necessitating a distinction between confirmed personnel issues and unproven national security claims.",
+          "key_arguments": [
+            "The FBI investigation covers both the alleged affair and the separate intelligence allegations; conflating these two distinct matters obscures the evidentiary status of each.",
+            "US intelligence assessments cited by The New York Times represent a classified or sensitive evaluation, not public court evidence, and cannot be treated as independently proven facts without further disclosure.",
+            "The strategic importance of NVIDIA's semiconductor technology amplifies the geopolitical sensitivity of any potential breach, regardless of the current evidentiary threshold."
+          ],
+          "narrative_tags": [
+            "geopolitical_risk",
+            "corporate_governance",
+            "intelligence_assessment_vs_fact",
+            "technological_sovereignty"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 17.653,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1668,
+          "stance": -0.4,
+          "virality": 0.85,
+          "credibility": 0.6,
+          "emotional_charge": 0.7,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.54,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2972,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "Jensen Huang admitted to having an extramarital affair.",
+            "US intelligence has alleged that the woman involved is gathering information for Beijing.",
+            "The FBI is conducting an investigation into the matter.",
+            "NVIDIA's advanced AI chips are central to the global AI industry."
+          ],
+          "primary_narrative": "While the personal admission of an affair is corroborated, the allegation of espionage relies on classified intelligence assessments that have not been independently verified by public evidence.",
+          "key_arguments": [
+            "The distinction must be maintained between the admitted personal misconduct and the unproven national security allegation.",
+            "Investor confidence and corporate reputation are currently under threat due to the intersection of a high-profile scandal and geopolitical sensitivity, but this remains a hypothesis pending further disclosure.",
+            "Attributing espionage requires documented supply chain figures or primary sensor data, which are currently absent from the source material."
+          ],
+          "narrative_tags": [
+            "geopolitical_risk",
+            "corporate_governance",
+            "unverified_intelligence",
+            "high_stakes_scandal"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 18.055,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1793,
+          "stance": 0.3,
+          "virality": 0.9,
+          "credibility": 0.5,
+          "emotional_charge": 0.6,
+          "model_estimated_credibility": 0.5,
+          "evidence_grounding_score": 0.8,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.308,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.4,
+          "claims": [
+            "Jensen Huang admitted to having an extramarital affair.",
+            "US intelligence has assessed that the woman involved in the affair is gathering information for Beijing.",
+            "The FBI is currently investigating this matter.",
+            "NVIDIA's advanced AI chips are central to the global AI industry."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving NVIDIA's CEO has escalated into a national security inquiry due to US intelligence assessments linking the affair partner to Chinese intelligence activities.",
+          "key_arguments": [
+            "The distinction must be maintained between Huang's admitted personal misconduct and the unproven allegation of espionage by the woman involved.",
+            "Corporate governance is under immediate scrutiny, but no evidence yet exists that NVIDIA itself transferred confidential technology or committed espionage.",
+            "The situation represents a convergence of personal ethics violations and geopolitical tensions regarding semiconductor supply chains."
+          ],
+          "narrative_tags": [
+            "Geopolitical Tension",
+            "Corporate Governance",
+            "Unproven Allegation",
+            "National Security Scrutiny"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 18.891,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1922,
+          "stance": 0.7,
+          "virality": 0.9,
+          "credibility": 0.4,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.45,
+          "evidence_grounding_score": 0.2185,
+          "evidence_penalty_applied": 0.4,
+          "transmission_weight": 0.18,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "unsupported",
+          "supporting_evidence": [
+            "Associated Press reporting that President Donald Trump said the FBI was looking into the matter",
+            "NVIDIA CEO Jensen Huang acknowledged an affair and issued an apology",
+            "The New York Times cited US intelligence assessments alleging the woman was gathering information for Beijing"
+          ],
+          "uncertainty": 0.85,
+          "claims": [
+            "Jensen Huang admitted to a personal relationship with a third party.",
+            "US intelligence has assessed that this individual may be acting as an intelligence asset for China.",
+            "The FBI has initiated an investigation into the alleged connection between the affair and national security concerns.",
+            "NVIDIA's advanced AI chips are strategically critical to US-China technological competition."
+          ],
+          "primary_narrative": "The convergence of a high-profile corporate scandal involving a key US tech executive and unverified intelligence allegations about espionage creates a volatile scenario where personal misconduct could be weaponized into a national security crisis.",
+          "key_arguments": [
+            "Distinguishing between the admitted personal affair and the unproven allegation of espionage is critical; conflating them risks false equivalence on national security matters.",
+            "The severity of potential consequences depends entirely on whether US intelligence assessments are corroborated by independent evidence, not merely by media attribution.",
+            "NVIDIA's strategic position in the semiconductor supply chain means any breach of trust or regulatory action could trigger cascading failures in global AI infrastructure."
+          ],
+          "narrative_tags": [
+            "supply_chain_fragility",
+            "intelligence_misinformation_risk",
+            "corporate_governance_crisis",
+            "geopolitical_vulnerability"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 16.686,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1538,
+          "stance": 0.6,
+          "virality": 0.95,
+          "credibility": 0.7,
+          "emotional_charge": 0.85,
+          "model_estimated_credibility": 0.7,
+          "evidence_grounding_score": 0.85,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.5695,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter",
+            "Jensen Huang acknowledged the affair and issued an apology to his wife and NVIDIA",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing"
+          ],
+          "uncertainty": 0.3,
+          "claims": [
+            "An affair between Jensen Huang and a woman is acknowledged by him.",
+            "US intelligence has assessed that this woman may be gathering information for Beijing.",
+            "The FBI is currently investigating the matter.",
+            "NVIDIA's advanced AI chips are central to global AI industry infrastructure."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving a tech titan has triggered a federal investigation and raised serious questions about national security risks in the US-China semiconductor rivalry.",
+          "key_arguments": [
+            "The distinction must be maintained between Huang's admitted personal infidelity and the unproven allegation of espionage; one is a personal admission, the other is an intelligence assessment.",
+            "While no technology transfer has been proven, the convergence of a CEO scandal with US-China tech tensions creates a high-stakes narrative for investors and policymakers."
+          ],
+          "narrative_tags": [
+            "TechGovernance",
+            "NationalSecurity",
+            "CEOScandal",
+            "USChinaRelations"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.939,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1547,
+          "stance": 0.4,
+          "virality": 0.6,
+          "credibility": 0.6,
+          "emotional_charge": 0.3,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.221,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The existence of an affair between Jensen Huang and another individual has been acknowledged.",
+            "US intelligence agencies have presented an assessment suggesting the individual was engaged in information gathering on behalf of the People’s Republic of China.",
+            "The situation introduces heightened scrutiny of NVIDIA’s operations."
+          ],
+          "primary_narrative": "The emergence of this situation presents a complex challenge, primarily centered around the acknowledged affair and the subsequent intelligence assessment. Further investigation and corroboration are required to determine the extent of any potential compromise of sensitive information or national security interests.",
+          "key_arguments": [
+            "The initial reporting focuses on an affair, not espionage.",
+            "The intelligence assessment remains unverified and requires independent confirmation.",
+            "The strategic importance of NVIDIA’s technology necessitates careful monitoring."
+          ],
+          "narrative_tags": [
+            "Corporate Governance",
+            "US-China Relations",
+            "Semiconductor Industry",
+            "Intelligence Assessment",
+            "Risk Management"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 13.099,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1340,
+          "stance": 0.3,
+          "virality": 0.6,
+          "credibility": 0.6,
+          "emotional_charge": 0.4,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.1963,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The affair between Jensen Huang and another woman is a confirmed fact.",
+            "US intelligence assessments suggest a potential link between the woman and Chinese intelligence, but this remains an allegation."
+          ],
+          "primary_narrative": "Initial reporting indicates a confirmed affair involving NVIDIA CEO Jensen Huang, alongside allegations from US intelligence regarding potential information gathering for China. The situation’s sensitivity due to NVIDIA’s strategic importance and US-China tech relations warrants careful observation.",
+          "key_arguments": [
+            "The affair itself is a documented fact based on Huang’s acknowledgement and Trump’s statement.",
+            "The intelligence allegations are presented as assessments, not proven facts, and require independent verification."
+          ],
+          "narrative_tags": [
+            "affair",
+            "intelligence",
+            "semiconductor",
+            "US-China relations",
+            "NVIDIA"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 13.352,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1365,
+          "stance": 0.4,
+          "virality": 0.6,
+          "credibility": 0.6,
+          "emotional_charge": 0.3,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.52,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2232,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.7,
+          "claims": [
+            "The existence of an affair between Jensen Huang and another woman is supported by Huang’s acknowledgement and subsequent apology.",
+            "US intelligence assessments suggest a potential link between this woman and Chinese intelligence operations, but this remains an allegation."
+          ],
+          "primary_narrative": "A reported affair involving NVIDIA’s CEO and an alleged connection to Chinese intelligence has triggered scrutiny regarding NVIDIA’s operations and US-China technology relations, presenting potential risks and reputational challenges.",
+          "key_arguments": [
+            "The affair itself is a fact based on Huang’s statements, but the intelligence allegations are unproven assessments.",
+            "The sensitivity of US-China technology relations amplifies the potential impact of this situation."
+          ],
+          "narrative_tags": [
+            "NVIDIA",
+            "Jensen Huang",
+            "China",
+            "Intelligence",
+            "Semiconductors",
+            "US-China Relations"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 14.482,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1573,
+          "stance": -0.6,
+          "virality": 0.6,
+          "credibility": 0.5,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.5,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.3468,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The alleged affair between Jensen Huang and a woman is a confirmed event, though details remain limited.",
+            "The intelligence allegations, based on US intelligence assessments, represent a potential escalation of tensions between the US and China regarding technological dominance."
+          ],
+          "primary_narrative": "This event, framed by existing geopolitical pressures, presents a scenario where a seemingly private affair could be leveraged to create a cascade of negative consequences for NVIDIA, intensifying the already fraught relationship between the US and China. The inherent opacity of intelligence assessments and the potential for misinterpretation amplify the risk.",
+          "key_arguments": [
+            "The affair itself is a vulnerability, regardless of the intelligence component.",
+            "The sensitivity of US-China tech relations creates a highly reactive environment.",
+            "The intelligence allegations, even unproven, represent a significant threat multiplier."
+          ],
+          "narrative_tags": [
+            "geopolitical_risk",
+            "supply_chain_vulnerability",
+            "corporate_governance",
+            "national_security",
+            "systemic_interdependence"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 12.897,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1346,
+          "stance": 0.6,
+          "virality": 0.8,
+          "credibility": 0.6,
+          "emotional_charge": 0.7,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.52,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.3786,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.7,
+          "claims": [
+            "The existence of an affair between Jensen Huang and another woman is now a matter of public record, acknowledged by Huang himself.",
+            "US intelligence assessments suggest a potential link between this woman and Chinese intelligence activity, but this remains an allegation requiring further investigation."
+          ],
+          "primary_narrative": "A complex situation is unfolding involving a personal relationship, potential intelligence activity, and the strategic importance of NVIDIA, demanding careful monitoring and analysis.",
+          "key_arguments": [
+            "The affair itself represents a significant reputational risk for Huang and NVIDIA.",
+            "The intelligence allegations, while unproven, introduce a layer of national security concern and could trigger increased scrutiny."
+          ],
+          "narrative_tags": [
+            "NVIDIA",
+            "Jensen Huang",
+            "China",
+            "Intelligence",
+            "Semiconductors",
+            "Corporate Governance"
+          ],
+          "iteration": 1,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.2721,
+            "raw_influence": 0.5384,
+            "raw_external_inflow": 0.302,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3552,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.236) + 0.30·NormInboundFeedback(0.355) [Raw inflow=0.538]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.2437,
+            "raw_influence": 0.4004,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1537,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2364,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.247) + 0.30·NormInboundFeedback(0.236) [Raw inflow=0.400]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.2599,
+            "raw_influence": 0.3643,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0987,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2468,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.266) + 0.30·NormInboundFeedback(0.247) [Raw inflow=0.364]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.2641,
+            "raw_influence": 0.436,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1726,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2656,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.263) + 0.30·NormInboundFeedback(0.266) [Raw inflow=0.436]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.4384,
+            "raw_influence": 0.7405,
+            "raw_external_inflow": 0.2664,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3553,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.474) + 0.30·NormInboundFeedback(0.355) [Raw inflow=0.740]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2889,
+            "raw_influence": 0.9148,
+            "raw_external_inflow": 0.5213,
+            "raw_internal_inflow": 0.3934,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4344,
+            "internal_contribution": 0.1919,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.434) + 0.60·NormPeer(0.192) [Raw unnormalized inflow=0.915, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.3483,
+            "raw_influence": 0.7601,
+            "raw_external_inflow": 0.4029,
+            "raw_internal_inflow": 0.3571,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.474,
+            "internal_contribution": 0.2645,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.474) + 0.60·NormPeer(0.265) [Raw unnormalized inflow=0.760, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3552,
+            "raw_influence": 0.3552,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.4146,
+        "internal_contagion_score": 0.281,
+        "effective_spread_potential": 0.3344,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.2721,
+          "skeptic_debunker": 0.2437,
+          "pattern_seeker": 0.2599,
+          "doomer": 0.2641,
+          "amplifier_influencer": 0.4384,
+          "mainstream_public": 0.2889,
+          "engaged_subcultures": 0.3483,
+          "external_media_broadcast": 0.3552
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.2721,
+            "activation_pct": 27.2,
+            "raw_influence": 0.5384,
+            "raw_external_inflow": 0.302,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.2364,
+            "external_contribution": 0.3552,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.375,
+              "conviction_factor": 0.5,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.725,
+              "mean_emotional_charge": 0.45,
+              "mean_model_estimated_credibility": 0.5,
+              "mean_evidence_grounding_score": 0.56,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.6,
+              "transmission_weight": 0.2364,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.236) + 0.30·NormInboundFeedback(0.355) [Raw inflow=0.538].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3552,
+                "raw_weighted_signal": 0.302
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.2437,
+            "activation_pct": 24.4,
+            "raw_influence": 0.4004,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1537,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.2468,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2364,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.05,
+              "conviction_factor": 0.48,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.725,
+              "mean_emotional_charge": 0.55,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.52,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.7,
+              "transmission_weight": 0.2468,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.247) + 0.30·NormInboundFeedback(0.236) [Raw inflow=0.400].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.2364,
+                "raw_weighted_signal": 0.1537
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.2599,
+            "activation_pct": 26.0,
+            "raw_influence": 0.3643,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0987,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.2656,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2468,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.35,
+              "conviction_factor": 0.48,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.75,
+              "mean_emotional_charge": 0.45,
+              "mean_model_estimated_credibility": 0.55,
+              "mean_evidence_grounding_score": 0.66,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.55,
+              "transmission_weight": 0.2656,
+              "evidence_statuses": [
+                "supported",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.266) + 0.30·NormInboundFeedback(0.247) [Raw inflow=0.364].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.2468,
+                "raw_weighted_signal": 0.0987
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.2641,
+            "activation_pct": 26.4,
+            "raw_influence": 0.436,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1726,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.2634,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2656,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.05,
+              "conviction_factor": 0.72,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.75,
+              "mean_emotional_charge": 0.8,
+              "mean_model_estimated_credibility": 0.475,
+              "mean_evidence_grounding_score": 0.3593,
+              "mean_evidence_penalty": 0.625,
+              "mean_uncertainty": 0.8,
+              "transmission_weight": 0.2634,
+              "evidence_statuses": [
+                "unsupported",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.263) + 0.30·NormInboundFeedback(0.266) [Raw inflow=0.436].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.2656,
+                "raw_weighted_signal": 0.1726
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.4384,
+            "activation_pct": 43.8,
+            "raw_influence": 0.7405,
+            "raw_external_inflow": 0.2664,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.474,
+            "external_contribution": 0.3553,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.6,
+              "conviction_factor": 0.68,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.875,
+              "mean_emotional_charge": 0.775,
+              "mean_model_estimated_credibility": 0.65,
+              "mean_evidence_grounding_score": 0.685,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.5,
+              "transmission_weight": 0.474,
+              "evidence_statuses": [
+                "supported",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.474) + 0.30·NormInboundFeedback(0.355) [Raw inflow=0.740].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3552,
+                "raw_weighted_signal": 0.2664
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2889,
+            "activation_pct": 28.9,
+            "raw_influence": 0.9148,
+            "raw_external_inflow": 0.5213,
+            "raw_internal_inflow": 0.3934,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4344,
+            "internal_contribution": 0.1919,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.434) + 0.60·NormPeer(0.192) [Raw unnormalized inflow=0.915, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3552,
+                "raw_weighted_signal": 0.1421
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.474,
+                "raw_weighted_signal": 0.3792
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.2364,
+                "raw_weighted_signal": 0.1655
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.2468,
+                "raw_weighted_signal": 0.1357
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.2634,
+                "raw_weighted_signal": 0.0922
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.3483,
+            "activation_pct": 34.8,
+            "raw_influence": 0.7601,
+            "raw_external_inflow": 0.4029,
+            "raw_internal_inflow": 0.3571,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.474,
+            "internal_contribution": 0.2645,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.474) + 0.60·NormPeer(0.265) [Raw unnormalized inflow=0.760, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.474,
+                "raw_weighted_signal": 0.4029
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.2656,
+                "raw_weighted_signal": 0.1859
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.2634,
+                "raw_weighted_signal": 0.1712
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3552,
+            "activation_pct": 35.5,
+            "raw_influence": 0.3552,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3552,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 1,
+        "p_external": 0.0307,
+        "q_internal": 0.2484,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.0494,
+        "active_adoption": 0.0482,
+        "adoption_velocity": 0.0328,
+        "attention_indicator": 0.6887,
+        "attention_vs_adoption_ratio": 14.3,
+        "dt": 1.0,
+        "initial_n0": 0.0154,
+        "formula_derivation": "p=0.0307 (from Meso ext_score 0.415: 0.01 + 0.05*ext); q=0.2484 (from Meso int_score 0.281: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0154; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 1,
+        "macro_summary": "Active adoption reached 4.8% of population (expanding steadily, net velocity: +0.033/cycle, churn: 8.0%). Attention Index is at 68.9% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.41. Evidence audit: 2 supported, 7 inferred, 1 unverified.",
+        "dominant_framing": "A high-profile personal scandal involving a tech titan has triggered a federal investigation and raised serious questions about national security risks in the US-China semiconductor rivalry.",
+        "polarization_index": 0.4062,
+        "prompt_context_for_next_round": "--- MACRO FEEDBACK FROM ROUND 1 ---\n• VERIFIED SOURCE EVIDENCE: \"On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.\n\nAccording to Associated Press reporting, President Do...\"\n• PREVIOUS ROUND LEADING HYPOTHESIS (Unverified): \"A high-profile personal scandal involving a tech titan has triggered a federal investigation and raised serious questions about national security risks in the US-China semiconductor rivalry.\"\n• Claim Audit: 2 supported by source | 7 inferred | 1 unsupported.\n• Public Adoption: 4.8% active adherence (expanding steadily).\n• Attention Atmosphere: 68.9% public buzz — High Media Hype (Conversational buzz drastically outpaces behavioral adoption).\n• Network Polarization: 0.41 (divergence across skeptics vs believers).\n• ALERT: Amplification Warning: 1 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence.\nGUARDRAILS FOR ROUND 2:\n- Ground all analyses strictly in verified facts. Do NOT treat prior round hypotheses as established facts.\n- Challenge or verify previous speculations; do not amplify unverified claims without evidence.\n- Factor community momentum (4.8%) and fatigue (8.0%) into your response.",
+        "claim_verification_audit": {
+          "supported": 2,
+          "inferred": 7,
+          "unsupported": 1,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": 0.0,
+          "credibility_drift": 0.0,
+          "uncertainty_drift": 0.0,
+          "activation_drift": 0.0,
+          "adoption_drift": 0.0,
+          "attention_drift": 0.0
+        },
+        "iteration_change_summary": "Baseline Iteration 1: Evaluated 10 valid interpretations directly from raw source signal (active adoption 4.8%, attention 68.9%, polarization 0.41).",
+        "amplification_warning": true,
+        "warning_details": "Amplification Warning: 1 unsupported narrative(s) exhibit high virality (>=0.60) generated by [doomer]. Speculative claims risk compounding into network belief without empirical evidence."
+      }
+    },
+    {
+      "iteration": 2,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 23.089,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1752,
+          "stance": -0.4,
+          "virality": 0.72,
+          "credibility": 0.55,
+          "emotional_charge": 0.68,
+          "model_estimated_credibility": 0.55,
+          "evidence_grounding_score": 0.54,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2751,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Associated Press reporting that President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "An FBI investigation is currently active regarding Jensen Huang's personal conduct.",
+            "US intelligence has assessed a connection between Huang's mistress and Chinese intelligence activities.",
+            "NVIDIA has not yet formally confirmed any breach of national security protocols or technology transfer."
+          ],
+          "primary_narrative": "While an FBI investigation and intelligence assessments have been reported, the distinction between a personal scandal and confirmed national security espionage remains unproven.",
+          "key_arguments": [
+            "The source material explicitly separates the acknowledged personal affair from the separately attributed intelligence allegation; it does not confirm espionage occurred.",
+            "High virality is driven by the convergence of high-profile tech leadership, US-China geopolitical tensions, and federal investigation narratives, yet empirical proof of misconduct is absent.",
+            "Corporate governance and investor confidence face reputational risk based on inferred consequences rather than verified facts of corporate misconduct."
+          ],
+          "narrative_tags": [
+            "Geopolitical Sensitivity",
+            "Unverified Espionage Allegation",
+            "Executive Scandal",
+            "FBI Investigation"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 18.215,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1747,
+          "stance": -0.4,
+          "virality": 0.72,
+          "credibility": 0.55,
+          "emotional_charge": 0.68,
+          "model_estimated_credibility": 0.55,
+          "evidence_grounding_score": 0.54,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2751,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Associated AP reporting, President Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "A federal investigation into Jensen Huang is explicitly confirmed by President Trump's statement.",
+            "US intelligence has assessed that the woman involved in the affair may be gathering information for Beijing.",
+            "NVIDIA has transferred confidential technology to China.",
+            "Jensen Huang committed espionage."
+          ],
+          "primary_narrative": "While a federal investigation and intelligence assessment are reported facts, the specific allegation of espionage or technology transfer remains unverified speculation subject to ongoing inquiry.",
+          "key_arguments": [
+            "Distinguish between the verified fact of an acknowledged affair and the unproven allegation of espionage; do not conflate personal conduct with national security violations without evidence.",
+            "The FBI investigation status is a matter of active process, not a concluded finding of wrongdoing or confirmed intelligence breach.",
+            "High virality in this narrative is driven by apophenia (connecting unrelated events) and confirmation bias regarding US-China tech rivalry rather than empirical proof of misconduct."
+          ],
+          "narrative_tags": [
+            "unverified_intelligence",
+            "confirmation_bias",
+            "apophenia",
+            "corporate_governance_risk"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.125,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1930,
+          "stance": 0.45,
+          "virality": 0.72,
+          "credibility": 0.65,
+          "emotional_charge": 0.55,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.288,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "A federal investigation into potential national security risks involving a personal affair is underway based on US intelligence assessments.",
+            "The specific allegation involves a connection between Jensen Huang's extramarital partner and Chinese intelligence gathering activities.",
+            "NVIDIA's advanced AI chips are central to global AI industry dynamics, making the situation geopolitically sensitive."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving a tech titan has triggered a federal investigation and raised serious questions about national security risks in the US-China semiconductor rivalry.",
+          "key_arguments": [
+            "Distinguish between the acknowledged affair (supported by Huang's apology) and the separately attributed intelligence allegation (cited from NYT/US assessments, not independently proven).",
+            "The FBI investigation is a response to reported US intelligence assessments, not proof of independent espionage or technology transfer.",
+            "Community momentum shows high media hype but low behavioral adoption, indicating speculative claims risk compounding without empirical evidence."
+          ],
+          "narrative_tags": [
+            "Geopolitical Tension",
+            "Corporate Governance",
+            "Unverified Allegation",
+            "OSINT Correlation"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 17.059,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1626,
+          "stance": 0.6,
+          "virality": 0.85,
+          "credibility": 0.4,
+          "emotional_charge": 0.7,
+          "model_estimated_credibility": 0.4,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.354,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Associated Press reporting that President Trump said the FBI was looking into the matter",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing"
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "An FBI investigation into Jensen Huang is a reported fact based on Trump's statement.",
+            "US intelligence has assessed the alleged affair partner as potentially gathering information for Beijing.",
+            "The specific nature of any alleged technology transfer or espionage remains unverified by independent evidence.",
+            "Corporate misconduct or national security violations cannot be established solely on the basis of these reports."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving a tech titan has triggered a federal investigation and raised serious questions about national security risks in the US-China semiconductor rivalry.",
+          "key_arguments": [
+            "Distinguish between the acknowledged personal affair (supported) and the unverified intelligence allegations (inferred from NYT citation).",
+            "The severity of potential consequences depends entirely on whether espionage or technology transfer is proven, not just on the scandal itself."
+          ],
+          "narrative_tags": [
+            "Supply Chain Fragility",
+            "Geopolitical Escalation",
+            "Unverified Espionage Allegations"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.62,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1898,
+          "stance": 0.15,
+          "virality": 0.82,
+          "credibility": 0.65,
+          "emotional_charge": 0.78,
+          "model_estimated_credibility": 0.65,
+          "evidence_grounding_score": 0.825,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.246,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.35,
+          "claims": [
+            "Jensen Huang admitted to having an extramarital affair with a woman linked to Chinese intelligence.",
+            "The FBI is currently investigating this matter under President Trump's administration.",
+            "US intelligence has assessed that the woman involved was gathering information for Beijing.",
+            "NVIDIA's advanced AI chips are central to global AI industry dynamics and US-China technology relations."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+          "key_arguments": [
+            "Distinguish between the acknowledged personal misconduct (affair) and the unverified national security allegation (espionage); the latter relies on cited assessments, not independent proof of criminal acts.",
+            "The situation represents a convergence of corporate governance failure and geopolitical tension, but specific charges of espionage or technology transfer remain unproven pending further investigation."
+          ],
+          "narrative_tags": [
+            "TechGovernance",
+            "USChinaRivalry",
+            "FederalInvestigation",
+            "UnverifiedEspionage"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 14.244,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1575,
+          "stance": 0.3,
+          "virality": 0.48,
+          "credibility": 0.8,
+          "emotional_charge": 0.4,
+          "model_estimated_credibility": 0.8,
+          "evidence_grounding_score": 0.7,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.2618,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The Associated Press also reported that The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.6,
+          "claims": [
+            "The FBI initiated an investigation into the alleged affair.",
+            "Jensen Huang admitted to an extramarital affair.",
+            "US intelligence assessments suggest a potential link between the affair and intelligence gathering for China."
+          ],
+          "primary_narrative": "The situation centers on an acknowledged affair involving NVIDIA CEO Jensen Huang, prompting a federal investigation and intelligence assessments regarding potential Chinese involvement. The situation’s sensitivity stems from NVIDIA’s strategic importance within the global AI landscape and ongoing US-China technological competition.",
+          "key_arguments": [
+            "The initial trigger is the confirmed affair, not speculative intelligence allegations.",
+            "The FBI’s involvement represents a formal escalation of concern.",
+            "The intelligence assessment, while unproven, introduces a significant national security dimension."
+          ],
+          "narrative_tags": [
+            "Affair Investigation",
+            "US-China Tech Relations",
+            "Semiconductor Industry",
+            "Intelligence Assessment",
+            "Corporate Governance"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 14.988,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1546,
+          "stance": 0.35,
+          "virality": 0.65,
+          "credibility": 0.6,
+          "emotional_charge": 0.4,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2193,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The FBI initiated an investigation based on President Trump’s statement.",
+            "Jensen Huang admitted to an affair.",
+            "US intelligence assessments alleged the woman was gathering information for Beijing."
+          ],
+          "primary_narrative": "A situation involving an alleged affair and intelligence concerns has prompted a preliminary FBI investigation and triggered media attention due to NVIDIA’s strategic importance. The core facts, as reported by the Associated Press, remain limited to acknowledged admissions and speculative intelligence assessments.",
+          "key_arguments": [
+            "The situation is framed as a potential national security concern, but relies on unverified intelligence assessments.",
+            "The affair itself is a fact, but its connection to intelligence gathering is not proven.",
+            "The public response reflects heightened sensitivity regarding US-China technology relations."
+          ],
+          "narrative_tags": [
+            "affair",
+            "intelligence",
+            "semiconductor",
+            "US-China relations",
+            "FBI investigation"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 14.213,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1500,
+          "stance": 0.3,
+          "virality": 0.7,
+          "credibility": 0.8,
+          "emotional_charge": 0.6,
+          "model_estimated_credibility": 0.8,
+          "evidence_grounding_score": 0.7,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.308,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.6,
+          "claims": [
+            "The Associated Press reported that President Trump directed the FBI to investigate the matter.",
+            "Jensen Huang acknowledged an affair and apologized to his wife and NVIDIA.",
+            "The New York Times cited US intelligence assessments suggesting a woman was gathering information for Beijing."
+          ],
+          "primary_narrative": "A reported affair between NVIDIA CEO Jensen Huang and a woman linked to Chinese intelligence has prompted a federal investigation and heightened scrutiny of US-China technology relations, centering on NVIDIA’s strategic importance.",
+          "key_arguments": [
+            "The situation is based on reported allegations and intelligence assessments, not proven facts.",
+            "The investigation initiated by the FBI represents a significant escalation of concern regarding national security implications."
+          ],
+          "narrative_tags": [
+            "US-China Tech Rivalry",
+            "Semiconductor Industry",
+            "National Security",
+            "Corporate Governance",
+            "Affair Investigation"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 15.721,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1752,
+          "stance": -0.65,
+          "virality": 0.7,
+          "credibility": 0.6,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.3978,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The alleged affair between Jensen Huang and a woman is a confirmed fact, though its implications remain unclear.",
+            "The FBI is investigating the matter, indicating a potential national security concern.",
+            "US intelligence assessments suggest the woman was gathering information for Beijing."
+          ],
+          "primary_narrative": "This event represents a predictable escalation within the ongoing strategic competition between the US and China, leveraging personal indiscretions to probe vulnerabilities in critical technological sectors. The institutional response, while initiated, likely reflects a delayed and ultimately insufficient reckoning with systemic dependencies.",
+          "key_arguments": [
+            "The affair itself is a symptom of broader geopolitical tensions, not necessarily evidence of espionage.",
+            "The FBI's involvement suggests a genuine, if potentially premature, concern about national security risks.",
+            "The situation highlights the inherent instability of relying on key technological leaders within a context of heightened strategic rivalry."
+          ],
+          "narrative_tags": [
+            "US-China Rivalry",
+            "Semiconductor Industry",
+            "National Security",
+            "Corporate Governance",
+            "Systemic Interdependence"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 12.65,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1237,
+          "stance": 0.75,
+          "virality": 0.75,
+          "credibility": 0.85,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.85,
+          "evidence_grounding_score": 0.675,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.615,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.65,
+          "claims": [
+            "A federal investigation is underway, initiated by President Trump.",
+            "Jensen Huang admitted to an affair.",
+            "US intelligence agencies believe a woman was collecting information for China."
+          ],
+          "primary_narrative": "The situation centers on a confirmed affair involving NVIDIA CEO Jensen Huang, prompting a federal inquiry and intelligence agency scrutiny, highlighting the sensitive US-China technology competition.",
+          "key_arguments": [
+            "The affair itself is a significant event, impacting NVIDIA's reputation.",
+            "The alleged intelligence connection adds a layer of national security concern."
+          ],
+          "narrative_tags": [
+            "NVIDIA",
+            "Jensen Huang",
+            "Affair",
+            "China",
+            "Intelligence",
+            "FBI Investigation",
+            "Semiconductor"
+          ],
+          "iteration": 2,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.2928,
+            "raw_influence": 0.5655,
+            "raw_external_inflow": 0.2971,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3495,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.268) + 0.30·NormInboundFeedback(0.349) [Raw inflow=0.566]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.2536,
+            "raw_influence": 0.4217,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1745,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2684,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.247) + 0.30·NormInboundFeedback(0.268) [Raw inflow=0.422]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.2828,
+            "raw_influence": 0.3969,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0989,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2472,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.298) + 0.30·NormInboundFeedback(0.247) [Raw inflow=0.397]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.3525,
+            "raw_influence": 0.5696,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1937,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.298,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.376) + 0.30·NormInboundFeedback(0.298) [Raw inflow=0.570]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.4062,
+            "raw_influence": 0.6926,
+            "raw_external_inflow": 0.2621,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3495,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.430) + 0.30·NormInboundFeedback(0.349) [Raw inflow=0.693]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2947,
+            "raw_influence": 0.9396,
+            "raw_external_inflow": 0.4842,
+            "raw_internal_inflow": 0.4554,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4035,
+            "internal_contribution": 0.2222,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.403) + 0.60·NormPeer(0.222) [Raw unnormalized inflow=0.940, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.3735,
+            "raw_influence": 0.8189,
+            "raw_external_inflow": 0.3659,
+            "raw_internal_inflow": 0.4529,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.3355,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.336) [Raw unnormalized inflow=0.819, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3495,
+            "raw_influence": 0.3495,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.39,
+        "internal_contagion_score": 0.3114,
+        "effective_spread_potential": 0.3428,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.2928,
+          "skeptic_debunker": 0.2536,
+          "pattern_seeker": 0.2828,
+          "doomer": 0.3525,
+          "amplifier_influencer": 0.4062,
+          "mainstream_public": 0.2947,
+          "engaged_subcultures": 0.3735,
+          "external_media_broadcast": 0.3495
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.2928,
+            "activation_pct": 29.3,
+            "raw_influence": 0.5655,
+            "raw_external_inflow": 0.2971,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.2684,
+            "external_contribution": 0.3495,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.05,
+              "conviction_factor": 0.48,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.6,
+              "mean_emotional_charge": 0.54,
+              "mean_model_estimated_credibility": 0.675,
+              "mean_evidence_grounding_score": 0.62,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.625,
+              "transmission_weight": 0.2684,
+              "evidence_statuses": [
+                "inferred",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.268) + 0.30·NormInboundFeedback(0.349) [Raw inflow=0.566].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3495,
+                "raw_weighted_signal": 0.2971
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.2536,
+            "activation_pct": 25.4,
+            "raw_influence": 0.4217,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1745,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.2472,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2684,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.025,
+              "conviction_factor": 0.5,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.685,
+              "mean_emotional_charge": 0.54,
+              "mean_model_estimated_credibility": 0.575,
+              "mean_evidence_grounding_score": 0.52,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.7,
+              "transmission_weight": 0.2472,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.247) + 0.30·NormInboundFeedback(0.268) [Raw inflow=0.422].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.2684,
+                "raw_weighted_signal": 0.1745
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.2828,
+            "activation_pct": 28.3,
+            "raw_influence": 0.3969,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0989,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.298,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.2472,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.375,
+              "conviction_factor": 0.5,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.71,
+              "mean_emotional_charge": 0.575,
+              "mean_model_estimated_credibility": 0.725,
+              "mean_evidence_grounding_score": 0.6,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.675,
+              "transmission_weight": 0.298,
+              "evidence_statuses": [
+                "inferred",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.298) + 0.30·NormInboundFeedback(0.247) [Raw inflow=0.397].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.2472,
+                "raw_weighted_signal": 0.0989
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.3525,
+            "activation_pct": 35.2,
+            "raw_influence": 0.5696,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1937,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.3759,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.298,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.025,
+              "conviction_factor": 0.7,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.775,
+              "mean_emotional_charge": 0.75,
+              "mean_model_estimated_credibility": 0.5,
+              "mean_evidence_grounding_score": 0.5,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.75,
+              "transmission_weight": 0.3759,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.376) + 0.30·NormInboundFeedback(0.298) [Raw inflow=0.570].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.298,
+                "raw_weighted_signal": 0.1937
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.4062,
+            "activation_pct": 40.6,
+            "raw_influence": 0.6926,
+            "raw_external_inflow": 0.2621,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.4305,
+            "external_contribution": 0.3495,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.45,
+              "conviction_factor": 0.56,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.785,
+              "mean_emotional_charge": 0.79,
+              "mean_model_estimated_credibility": 0.75,
+              "mean_evidence_grounding_score": 0.75,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.5,
+              "transmission_weight": 0.4305,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.430) + 0.30·NormInboundFeedback(0.349) [Raw inflow=0.693].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3495,
+                "raw_weighted_signal": 0.2621
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2947,
+            "activation_pct": 29.5,
+            "raw_influence": 0.9396,
+            "raw_external_inflow": 0.4842,
+            "raw_internal_inflow": 0.4554,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4035,
+            "internal_contribution": 0.2222,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.403) + 0.60·NormPeer(0.222) [Raw unnormalized inflow=0.940, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3495,
+                "raw_weighted_signal": 0.1398
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.4305,
+                "raw_weighted_signal": 0.3444
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.2684,
+                "raw_weighted_signal": 0.1879
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.2472,
+                "raw_weighted_signal": 0.136
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.3759,
+                "raw_weighted_signal": 0.1316
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.3735,
+            "activation_pct": 37.4,
+            "raw_influence": 0.8189,
+            "raw_external_inflow": 0.3659,
+            "raw_internal_inflow": 0.4529,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4305,
+            "internal_contribution": 0.3355,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.430) + 0.60·NormPeer(0.336) [Raw unnormalized inflow=0.819, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.4305,
+                "raw_weighted_signal": 0.3659
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.298,
+                "raw_weighted_signal": 0.2086
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.3759,
+                "raw_weighted_signal": 0.2443
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3495,
+            "activation_pct": 34.9,
+            "raw_influence": 0.3495,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3495,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 2,
+        "p_external": 0.0295,
+        "q_internal": 0.259,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.0896,
+        "active_adoption": 0.0845,
+        "adoption_velocity": 0.0363,
+        "attention_indicator": 0.663,
+        "attention_vs_adoption_ratio": 7.84,
+        "dt": 1.0,
+        "initial_n0": 0.0154,
+        "formula_derivation": "p=0.0295 (from Meso ext_score 0.390: 0.01 + 0.05*ext); q=0.2590 (from Meso int_score 0.311: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0154; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 2,
+        "macro_summary": "Active adoption reached 8.5% of population (expanding steadily, net velocity: +0.036/cycle, churn: 8.0%). Attention Index is at 66.3% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.45. Evidence audit: 4 supported, 6 inferred, 0 unverified.",
+        "dominant_framing": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+        "polarization_index": 0.4452,
+        "prompt_context_for_next_round": "--- MACRO FEEDBACK FROM ROUND 2 ---\n• VERIFIED SOURCE EVIDENCE: \"On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.\n\nAccording to Associated Press reporting, President Do...\"\n• PREVIOUS ROUND LEADING HYPOTHESIS (Unverified): \"A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.\"\n• Claim Audit: 4 supported by source | 6 inferred | 0 unsupported.\n• Public Adoption: 8.5% active adherence (expanding steadily).\n• Attention Atmosphere: 66.3% public buzz — High Media Hype (Conversational buzz drastically outpaces behavioral adoption).\n• Network Polarization: 0.45 (divergence across skeptics vs believers).\nGUARDRAILS FOR ROUND 3:\n- Ground all analyses strictly in verified facts. Do NOT treat prior round hypotheses as established facts.\n- Challenge or verify previous speculations; do not amplify unverified claims without evidence.\n- Factor community momentum (8.5%) and fatigue (8.0%) into your response.",
+        "claim_verification_audit": {
+          "supported": 4,
+          "inferred": 6,
+          "unsupported": 0,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": -0.12,
+          "credibility_drift": 0.095,
+          "uncertainty_drift": 0.02,
+          "activation_drift": 0.0169,
+          "adoption_drift": 0.0363,
+          "attention_drift": -0.0257
+        },
+        "iteration_change_summary": "Iteration 2 vs Iteration 1: Mean stance shifted -0.120, credibility +0.095, uncertainty +0.020, active adoption +3.6%, attention -2.6%. Change driven by injected Round 1 macro consensus, claim audit, and Bass imitation/churn integration.",
+        "amplification_warning": false,
+        "warning_details": null
+      }
+    },
+    {
+      "iteration": 3,
+      "micro_interpretations": [
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 25.073,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 2110,
+          "stance": -0.3,
+          "virality": 0.85,
+          "credibility": 0.4,
+          "emotional_charge": 0.6,
+          "model_estimated_credibility": 0.4,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.2197,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "President Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "A federal investigation by the FBI has been initiated regarding allegations of espionage tied to a third party in an affair involving Jensen Huang.",
+            "US intelligence assessments have alleged that the woman involved was gathering information for Beijing.",
+            "Jensen Huang has acknowledged the existence of the affair but has not admitted to any espionage or unauthorized technology transfer."
+          ],
+          "primary_narrative": "While a personal scandal involving Jensen Huang is confirmed and under federal review, the specific allegation of espionage remains an unverified intelligence assessment rather than independently proven fact.",
+          "key_arguments": [
+            "Distinguishing between the acknowledged personal misconduct (affair) and the separate, unproven national security allegation (espionage) prevents conflation of private behavior with state-level crimes.",
+            "The reliance on 'intelligence assessments' cited by media outlets indicates a lack of public evidence; without independent verification, these claims remain speculative hypotheses rather than established facts.",
+            "Corporate governance and investor confidence may face short-term volatility due to the high-profile nature of the scandal, but actual national security violations require proof of intent or action that is currently absent."
+          ],
+          "narrative_tags": [
+            "unverified_intelligence",
+            "governance_scrutiny",
+            "separation_of_personal_and_state",
+            "media_amplification"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 17.093,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1648,
+          "stance": -0.3,
+          "virality": 0.85,
+          "credibility": 0.6,
+          "emotional_charge": 0.7,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.62,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.259,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "A federal investigation by the FBI is actively occurring based on President Trump's statement.",
+            "US intelligence has formally assessed that the woman involved in the affair was gathering information for Beijing.",
+            "Jensen Huang admitted to an extramarital relationship."
+          ],
+          "primary_narrative": "While the personal admission of an affair is a verified fact, the allegation of espionage remains an unverified intelligence assessment cited by media outlets rather than independently confirmed evidence.",
+          "key_arguments": [
+            "Distinguishing between the acknowledged personal misconduct (affair) and the separate, unproven allegation of national security violation (espionage).",
+            "Recognizing that media narratives often conflate high-profile scandals with verified intelligence findings without independent corroboration.",
+            "Acknowledging that corporate reputation damage stems from both the confirmed behavior and the speculative nature of the security allegations."
+          ],
+          "narrative_tags": [
+            "unverified_intelligence",
+            "separation_of_facts_and_speculation",
+            "media_amplification"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.353,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1946,
+          "stance": -0.3,
+          "virality": 0.85,
+          "credibility": 0.6,
+          "emotional_charge": 0.7,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.775,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.3217,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.45,
+          "claims": [
+            "A federal investigation by the FBI is underway regarding allegations of espionage ties to a woman involved in an affair with Jensen Huang.",
+            "US intelligence has assessed that the woman in question may be gathering information for Beijing.",
+            "Jensen Huang has acknowledged the existence of the affair and apologized.",
+            "The specific nature of any alleged data transfer or corporate misconduct remains unproven."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+          "key_arguments": [
+            "Distinguish between the acknowledged personal misconduct (affair) and the unverified allegation of state-sponsored espionage; the latter relies on intelligence assessments rather than confirmed evidence.",
+            "The situation represents a convergence of corporate governance failure, national security scrutiny, and geopolitical tension, but specific charges against NVIDIA require independent verification beyond initial reports."
+          ],
+          "narrative_tags": [
+            "corporate_scandal",
+            "national_security_scrutiny",
+            "geopolitical_tension",
+            "unverified_allegation"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.838,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1953,
+          "stance": -0.6,
+          "virality": 0.85,
+          "credibility": 0.45,
+          "emotional_charge": 0.72,
+          "model_estimated_credibility": 0.45,
+          "evidence_grounding_score": 0.625,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.4496,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "An affair between Jensen Huang and a woman linked to Chinese intelligence is reported as fact by AP.",
+            "US intelligence has assessed this woman as gathering information for Beijing (allegation only).",
+            "The FBI is investigating the matter under President Trump's administration.",
+            "Jensen Huang admitted to the affair but not necessarily to espionage.",
+            "NVIDIA's advanced AI chips are central to global AI industry supply chains."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+          "key_arguments": [
+            "Distinguish between the acknowledged personal misconduct (affair) and the unverified national security allegation (espionage).",
+            "Recognize that while the FBI investigation is reported, no evidence exists proving Jensen Huang committed espionage or that NVIDIA transferred confidential technology.",
+            "Acknowledge the systemic fragility of supply chains where a single executive's governance failure could trigger cascading trust issues in semiconductor production."
+          ],
+          "narrative_tags": [
+            "unverified_intelligence",
+            "executive_governance_risk",
+            "supply_chain_vulnerability",
+            "media_hype_vs_fact"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "qwen3.5:4b",
+          "provider": "ollama",
+          "model_slot": "model_a",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 19.214,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1877,
+          "stance": 0.65,
+          "virality": 0.92,
+          "credibility": 0.78,
+          "emotional_charge": 0.71,
+          "model_estimated_credibility": 0.78,
+          "evidence_grounding_score": 0.825,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.5823,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "Reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.35,
+          "claims": [
+            "Reports confirm Jensen Huang admitted to having an affair with a woman linked to Chinese intelligence.",
+            "The FBI is currently investigating this matter under the direction of President Trump.",
+            "US intelligence assessments (cited by NYT) allege the woman was gathering information for Beijing.",
+            "There is no verified evidence that NVIDIA transferred confidential technology or committed espionage."
+          ],
+          "primary_narrative": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+          "key_arguments": [
+            "Distinguish between the admitted personal misconduct (affair) and the unproven national security allegation (espionage).",
+            "Acknowledge that while an FBI investigation is underway based on Trump's directive, no evidence of corporate theft or technology transfer has been substantiated.",
+            "Recognize the high virality potential driven by the intersection of personal scandal, national security fears, and a dominant tech company."
+          ],
+          "narrative_tags": [
+            "CEO Scandal",
+            "National Security Allegation",
+            "FBI Investigation",
+            "Unverified Espionage Claims"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "institutional_analyst",
+          "archetype_name": "Institutional Analyst",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 11.705,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1087,
+          "stance": 0.3,
+          "virality": 0.4,
+          "credibility": 0.6,
+          "emotional_charge": 0.4,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.1777,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The FBI initiated an investigation at the direction of President Trump.",
+            "Jensen Huang admitted to an extramarital affair."
+          ],
+          "primary_narrative": "Initial reporting indicates a personal matter involving NVIDIA’s CEO, prompting a federal inquiry and subsequent admission of wrongdoing. The situation’s sensitivity regarding US-China technology relations necessitates a cautious approach.",
+          "key_arguments": [
+            "The investigation is predicated on a statement from the former President.",
+            "Huang’s acknowledgment represents a significant, albeit preliminary, development."
+          ],
+          "narrative_tags": [
+            "Affair",
+            "Intelligence Allegations",
+            "Trump Administration",
+            "NVIDIA",
+            "Semiconductor Industry"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "skeptic_debunker",
+          "archetype_name": "Skeptic Debunker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 12.964,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1307,
+          "stance": 0.3,
+          "virality": 0.35,
+          "credibility": 0.6,
+          "emotional_charge": 0.4,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.173,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The FBI initiated an investigation based on a statement from President Trump.",
+            "Jensen Huang admitted to an affair.",
+            "US intelligence assessed the woman was gathering information for Beijing."
+          ],
+          "primary_narrative": "Initial reports indicate a personal affair involving NVIDIA’s CEO, prompting a statement from the President and an admission from Huang. The involvement of US intelligence is currently under investigation, representing a sensitive situation given geopolitical tensions.",
+          "key_arguments": [
+            "The situation is predicated on preliminary reports and assertions, not definitive proof.",
+            "The attribution of intelligence gathering requires substantial corroborating evidence beyond initial allegations.",
+            "The sensitivity of US-China technology relations necessitates a cautious approach."
+          ],
+          "narrative_tags": [
+            "affair",
+            "intelligence",
+            "NVIDIA",
+            "Trump",
+            "US-China relations",
+            "investigation"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "pattern_seeker",
+          "archetype_name": "Pattern Seeker",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 14.199,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1446,
+          "stance": 0.7,
+          "virality": 0.3,
+          "credibility": 0.8,
+          "emotional_charge": 0.6,
+          "model_estimated_credibility": 0.8,
+          "evidence_grounding_score": 0.7,
+          "evidence_penalty_applied": 1.0,
+          "transmission_weight": 0.456,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "supported",
+          "supporting_evidence": [
+            "On November 10–11, 2026, reports emerged concerning NVIDIA CEO Jensen Huang and an alleged connection between a woman he had an affair with and Chinese intelligence.",
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA.",
+            "The New York Times had cited US intelligence assessments alleging that the woman was gathering information for Beijing."
+          ],
+          "uncertainty": 0.6,
+          "claims": [
+            "Jensen Huang acknowledged an affair.",
+            "The FBI initiated an investigation at the direction of President Trump.",
+            "US intelligence assessed the woman was gathering information for Beijing."
+          ],
+          "primary_narrative": "A reported affair between NVIDIA’s CEO and a woman, coupled with intelligence assessments, has prompted a federal investigation and heightened scrutiny of the company’s operations and relationships.",
+          "key_arguments": [
+            "The situation involves a confirmed personal relationship.",
+            "US intelligence has made a specific allegation regarding the woman's activities.",
+            "The matter has significant implications for NVIDIA’s strategic position."
+          ],
+          "narrative_tags": [
+            "NVIDIA",
+            "Jensen Huang",
+            "China",
+            "Intelligence",
+            "Affair",
+            "FBI Investigation"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "doomer",
+          "archetype_name": "Doomer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 12.993,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1323,
+          "stance": -0.65,
+          "virality": 0.35,
+          "credibility": 0.6,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.3442,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The FBI initiated an investigation at the direction of President Trump.",
+            "Jensen Huang admitted to an extramarital affair.",
+            "US intelligence assessed a connection between the affair and Chinese intelligence."
+          ],
+          "primary_narrative": "The emergence of this scandal, involving a personal affair and allegations of intelligence involvement, represents a potential vulnerability within a strategically important sector of the global economy, highlighting the inherent risks of interconnected systems and the potential for geopolitical leverage.",
+          "key_arguments": [
+            "The situation’s sensitivity stems from NVIDIA’s central role in the AI industry and ongoing US-China technological competition.",
+            "The investigation initiated by the FBI suggests a serious concern regarding potential espionage."
+          ],
+          "narrative_tags": [
+            "supply chain vulnerability",
+            "geopolitical risk",
+            "corporate scandal",
+            "AI industry",
+            "US-China relations"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        },
+        {
+          "archetype": "amplifier_influencer",
+          "archetype_name": "Amplifier Influencer",
+          "model_name": "gemma3:4b",
+          "provider": "ollama",
+          "model_slot": "model_b",
+          "execution_status": "success",
+          "error_category": null,
+          "error_message": null,
+          "duration_sec": 11.97,
+          "retry_count": 0,
+          "finish_reason": "stop",
+          "response_length": 1085,
+          "stance": 0.6,
+          "virality": 0.75,
+          "credibility": 0.6,
+          "emotional_charge": 0.8,
+          "model_estimated_credibility": 0.6,
+          "evidence_grounding_score": 0.5,
+          "evidence_penalty_applied": 0.85,
+          "transmission_weight": 0.3829,
+          "measurement_source": "synthetic_llm_estimate",
+          "evidence_status": "inferred",
+          "supporting_evidence": [
+            "According to Associated Press reporting, President Donald Trump said the FBI was looking into the matter.",
+            "Huang acknowledged the affair and issued an apology to his wife and NVIDIA."
+          ],
+          "uncertainty": 0.75,
+          "claims": [
+            "The FBI is investigating the affair, based on a statement from President Trump.",
+            "Jensen Huang has admitted to an affair and apologized for it."
+          ],
+          "primary_narrative": "A sensitive situation involving NVIDIA’s CEO has prompted an FBI investigation and a public apology, highlighting the complex interplay of personal conduct, corporate governance, and US-China relations.",
+          "key_arguments": [
+            "The investigation is initiated by a presidential statement, indicating potential concern.",
+            "Huang’s acknowledgement suggests the affair is a matter of public record."
+          ],
+          "narrative_tags": [
+            "NVIDIA",
+            "Jensen Huang",
+            "Affair",
+            "FBI Investigation",
+            "US-China Relations",
+            "Corporate Governance"
+          ],
+          "iteration": 3,
+          "source_url": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+          "raw_response": null
+        }
+      ],
+      "meso_state": {
+        "nodes": [
+          {
+            "id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "base_weight": 1.2,
+            "current_activation": 0.2413,
+            "raw_influence": 0.4883,
+            "raw_external_inflow": 0.2896,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "external_contribution": 0.3407,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.199) + 0.30·NormInboundFeedback(0.341) [Raw inflow=0.488]."
+          },
+          {
+            "id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "base_weight": 1.0,
+            "current_activation": 0.2108,
+            "raw_influence": 0.3452,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1292,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.1987,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.216) + 0.30·NormInboundFeedback(0.199) [Raw inflow=0.345]."
+          },
+          {
+            "id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.337,
+            "raw_influence": 0.4753,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0864,
+            "inbound_weight_sum": 0.4,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.216,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.389) + 0.30·NormInboundFeedback(0.216) [Raw inflow=0.475]."
+          },
+          {
+            "id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "base_weight": 0.9,
+            "current_activation": 0.3945,
+            "raw_influence": 0.6497,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.2528,
+            "inbound_weight_sum": 0.65,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3889,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.397) + 0.30·NormInboundFeedback(0.389) [Raw inflow=0.650]."
+          },
+          {
+            "id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "base_weight": 1.4,
+            "current_activation": 0.44,
+            "raw_influence": 0.7381,
+            "raw_external_inflow": 0.2555,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "external_contribution": 0.3406,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.483) + 0.30·NormInboundFeedback(0.341) [Raw inflow=0.738]."
+          },
+          {
+            "id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "base_weight": 1.5,
+            "current_activation": 0.2903,
+            "raw_influence": 0.9191,
+            "raw_external_inflow": 0.5223,
+            "raw_internal_inflow": 0.3968,
+            "inbound_weight_sum": 3.25,
+            "external_contribution": 0.4353,
+            "internal_contribution": 0.1936,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.435) + 0.60·NormPeer(0.194) [Raw unnormalized inflow=0.919, inbound weight sum=3.25]."
+          },
+          {
+            "id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "base_weight": 1.1,
+            "current_activation": 0.4287,
+            "raw_influence": 0.9404,
+            "raw_external_inflow": 0.4102,
+            "raw_internal_inflow": 0.5302,
+            "inbound_weight_sum": 2.2,
+            "external_contribution": 0.4826,
+            "internal_contribution": 0.3927,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.483) + 0.60·NormPeer(0.393) [Raw unnormalized inflow=0.940, inbound weight sum=2.20]."
+          },
+          {
+            "id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "base_weight": 1.3,
+            "current_activation": 0.3407,
+            "raw_influence": 0.3407,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges."
+          }
+        ],
+        "edges": [
+          {
+            "source": "external_media_broadcast",
+            "target": "institutional_analyst",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "amplifier_influencer",
+            "weight": 0.75,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "external_media_broadcast",
+            "target": "mainstream_public",
+            "weight": 0.4,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "mainstream_public",
+            "weight": 0.8,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "amplifier_influencer",
+            "target": "engaged_subcultures",
+            "weight": 0.85,
+            "channel_type": "external_broadcast"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "skeptic_debunker",
+            "weight": 0.65,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "institutional_analyst",
+            "target": "mainstream_public",
+            "weight": 0.7,
+            "channel_type": "institutional_trust"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "mainstream_public",
+            "weight": 0.55,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "skeptic_debunker",
+            "target": "pattern_seeker",
+            "weight": 0.4,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "doomer",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "pattern_seeker",
+            "target": "engaged_subcultures",
+            "weight": 0.7,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "engaged_subcultures",
+            "weight": 0.65,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "doomer",
+            "target": "mainstream_public",
+            "weight": 0.35,
+            "channel_type": "peer_contagion"
+          },
+          {
+            "source": "engaged_subcultures",
+            "target": "mainstream_public",
+            "weight": 0.45,
+            "channel_type": "peer_contagion"
+          }
+        ],
+        "external_influence_score": 0.4116,
+        "internal_contagion_score": 0.3323,
+        "effective_spread_potential": 0.364,
+        "activation_semantics": "instantaneous_per_iteration",
+        "meso_metrics_explanation": {
+          "activation_semantics": "instantaneous_per_iteration",
+          "edge_weights": "Static directed tie strength w_ij in [0.35, 0.85].",
+          "raw_inflow": "Unnormalized sum sum(w_ij * T_i) of active incoming links; can exceed 1.0 when total inbound edge weights > 1.0.",
+          "node_activation": "Capacity-normalized instantaneous node state strictly bounded to [0.0, 1.0] (never accumulates prior iteration activations).",
+          "external_media_vs_external_score": "external_media_broadcast activation = 0.5*T(amp) + 0.5*T(inst) (exogenous broadcast output; 0 inbound edges). Aggregate external_influence_score = 0.5*a(external_media) + 0.5*T(amp) = 0.75*T(amp) + 0.25*T(inst). They share exogenous broadcast terms but are mathematically distinct metrics.",
+          "stance_symmetry": "Symmetric conviction 0.20 + 0.80 * |stance| treats strong skepticism and strong endorsement equally without positive-stance bias."
+        },
+        "node_activations": {
+          "institutional_analyst": 0.2413,
+          "skeptic_debunker": 0.2108,
+          "pattern_seeker": 0.337,
+          "doomer": 0.3945,
+          "amplifier_influencer": 0.44,
+          "mainstream_public": 0.2903,
+          "engaged_subcultures": 0.4287,
+          "external_media_broadcast": 0.3407
+        },
+        "node_influence_breakdown": {
+          "institutional_analyst": {
+            "node_id": "institutional_analyst",
+            "label": "Institutional Analyst",
+            "node_type": "archetype",
+            "activation": 0.2413,
+            "activation_pct": 24.1,
+            "raw_influence": 0.4883,
+            "raw_external_inflow": 0.2896,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.85,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.2,
+            "source_baseline": 0.1987,
+            "external_contribution": 0.3407,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.0,
+              "conviction_factor": 0.44,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.625,
+              "mean_emotional_charge": 0.5,
+              "mean_model_estimated_credibility": 0.5,
+              "mean_evidence_grounding_score": 0.5,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.75,
+              "transmission_weight": 0.1987,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.199) + 0.30·NormInboundFeedback(0.341) [Raw inflow=0.488].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "skeptic_debunker",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.3407,
+                "raw_weighted_signal": 0.2896
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "skeptic_debunker",
+                "weight": 0.65,
+                "channel": "institutional_trust"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.7,
+                "channel": "institutional_trust"
+              }
+            ]
+          },
+          "skeptic_debunker": {
+            "node_id": "skeptic_debunker",
+            "label": "Skeptic Debunker",
+            "node_type": "archetype",
+            "activation": 0.2108,
+            "activation_pct": 21.1,
+            "raw_influence": 0.3452,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.1292,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.0,
+            "source_baseline": 0.216,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.1987,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.0,
+              "conviction_factor": 0.44,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.6,
+              "mean_emotional_charge": 0.55,
+              "mean_model_estimated_credibility": 0.6,
+              "mean_evidence_grounding_score": 0.56,
+              "mean_evidence_penalty": 0.85,
+              "mean_uncertainty": 0.6,
+              "transmission_weight": 0.216,
+              "evidence_statuses": [
+                "inferred",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.216) + 0.30·NormInboundFeedback(0.199) [Raw inflow=0.345].",
+            "incoming_sources": [
+              "institutional_analyst"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "pattern_seeker"
+            ],
+            "incoming_influences": [
+              {
+                "source": "institutional_analyst",
+                "weight": 0.65,
+                "channel": "institutional_trust",
+                "source_activation": 0.1987,
+                "raw_weighted_signal": 0.1292
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.55,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "pattern_seeker",
+                "weight": 0.4,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "pattern_seeker": {
+            "node_id": "pattern_seeker",
+            "label": "Pattern Seeker",
+            "node_type": "archetype",
+            "activation": 0.337,
+            "activation_pct": 33.7,
+            "raw_influence": 0.4753,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0864,
+            "inbound_weight_sum": 0.4,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.3889,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.216,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.2,
+              "conviction_factor": 0.6,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.575,
+              "mean_emotional_charge": 0.65,
+              "mean_model_estimated_credibility": 0.7,
+              "mean_evidence_grounding_score": 0.7375,
+              "mean_evidence_penalty": 1.0,
+              "mean_uncertainty": 0.525,
+              "transmission_weight": 0.3889,
+              "evidence_statuses": [
+                "supported",
+                "supported"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.389) + 0.30·NormInboundFeedback(0.216) [Raw inflow=0.475].",
+            "incoming_sources": [
+              "skeptic_debunker"
+            ],
+            "outgoing_targets": [
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.4,
+                "channel": "peer_contagion",
+                "source_activation": 0.216,
+                "raw_weighted_signal": 0.0864
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.7,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "doomer": {
+            "node_id": "doomer",
+            "label": "Doomer",
+            "node_type": "archetype",
+            "activation": 0.3945,
+            "activation_pct": 39.5,
+            "raw_influence": 0.6497,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.2528,
+            "inbound_weight_sum": 0.65,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 0.9,
+            "source_baseline": 0.3969,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.3889,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": -0.625,
+              "conviction_factor": 0.7,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.6,
+              "mean_emotional_charge": 0.76,
+              "mean_model_estimated_credibility": 0.525,
+              "mean_evidence_grounding_score": 0.5625,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.75,
+              "transmission_weight": 0.3969,
+              "evidence_statuses": [
+                "supported",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.397) + 0.30·NormInboundFeedback(0.389) [Raw inflow=0.650].",
+            "incoming_sources": [
+              "pattern_seeker"
+            ],
+            "outgoing_targets": [
+              "engaged_subcultures",
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "pattern_seeker",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.3889,
+                "raw_weighted_signal": 0.2528
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.65,
+                "channel": "peer_contagion"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.35,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "amplifier_influencer": {
+            "node_id": "amplifier_influencer",
+            "label": "Amplifier Influencer",
+            "node_type": "archetype",
+            "activation": 0.44,
+            "activation_pct": 44.0,
+            "raw_influence": 0.7381,
+            "raw_external_inflow": 0.2555,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.75,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.4,
+            "source_baseline": 0.4826,
+            "external_contribution": 0.3406,
+            "internal_contribution": 0.0,
+            "input_contributions": {
+              "valid_model_count": 2,
+              "mean_stance": 0.625,
+              "conviction_factor": 0.7,
+              "stance_symmetry_rule": "0.20 + 0.80 * |stance| (negative and positive conviction weighted identically)",
+              "mean_virality": 0.835,
+              "mean_emotional_charge": 0.755,
+              "mean_model_estimated_credibility": 0.69,
+              "mean_evidence_grounding_score": 0.6625,
+              "mean_evidence_penalty": 0.925,
+              "mean_uncertainty": 0.55,
+              "transmission_weight": 0.4826,
+              "evidence_statuses": [
+                "supported",
+                "inferred"
+              ]
+            },
+            "calculation_basis": "Instantaneous archetype activation: 0.70·IntrinsicTransmission(0.483) + 0.30·NormInboundFeedback(0.341) [Raw inflow=0.738].",
+            "incoming_sources": [
+              "external_media_broadcast"
+            ],
+            "outgoing_targets": [
+              "mainstream_public",
+              "engaged_subcultures"
+            ],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.75,
+                "channel": "external_broadcast",
+                "source_activation": 0.3407,
+                "raw_weighted_signal": 0.2555
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.8,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "engaged_subcultures",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              }
+            ]
+          },
+          "mainstream_public": {
+            "node_id": "mainstream_public",
+            "label": "Mainstream Public",
+            "node_type": "public_segment",
+            "activation": 0.2903,
+            "activation_pct": 29.0,
+            "raw_influence": 0.9191,
+            "raw_external_inflow": 0.5223,
+            "raw_internal_inflow": 0.3968,
+            "inbound_weight_sum": 3.25,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.5,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4353,
+            "internal_contribution": 0.1936,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.435) + 0.60·NormPeer(0.194) [Raw unnormalized inflow=0.919, inbound weight sum=3.25].",
+            "incoming_sources": [
+              "external_media_broadcast",
+              "amplifier_influencer",
+              "institutional_analyst",
+              "skeptic_debunker",
+              "doomer",
+              "engaged_subcultures"
+            ],
+            "outgoing_targets": [],
+            "incoming_influences": [
+              {
+                "source": "external_media_broadcast",
+                "weight": 0.4,
+                "channel": "external_broadcast",
+                "source_activation": 0.3407,
+                "raw_weighted_signal": 0.1363
+              },
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.8,
+                "channel": "external_broadcast",
+                "source_activation": 0.4826,
+                "raw_weighted_signal": 0.3861
+              },
+              {
+                "source": "institutional_analyst",
+                "weight": 0.7,
+                "channel": "institutional_trust",
+                "source_activation": 0.1987,
+                "raw_weighted_signal": 0.1391
+              },
+              {
+                "source": "skeptic_debunker",
+                "weight": 0.55,
+                "channel": "peer_contagion",
+                "source_activation": 0.216,
+                "raw_weighted_signal": 0.1188
+              },
+              {
+                "source": "doomer",
+                "weight": 0.35,
+                "channel": "peer_contagion",
+                "source_activation": 0.3969,
+                "raw_weighted_signal": 0.1389
+              },
+              {
+                "source": "engaged_subcultures",
+                "weight": 0.45,
+                "channel": "peer_contagion",
+                "source_activation": 0.0,
+                "raw_weighted_signal": 0.0
+              }
+            ],
+            "outgoing_influences": []
+          },
+          "engaged_subcultures": {
+            "node_id": "engaged_subcultures",
+            "label": "Engaged Subcultures",
+            "node_type": "public_segment",
+            "activation": 0.4287,
+            "activation_pct": 42.9,
+            "raw_influence": 0.9404,
+            "raw_external_inflow": 0.4102,
+            "raw_internal_inflow": 0.5302,
+            "inbound_weight_sum": 2.2,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.1,
+            "source_baseline": 0.0,
+            "external_contribution": 0.4826,
+            "internal_contribution": 0.3927,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous capacity-normalized absorption: 0.40·NormExt(0.483) + 0.60·NormPeer(0.393) [Raw unnormalized inflow=0.940, inbound weight sum=2.20].",
+            "incoming_sources": [
+              "amplifier_influencer",
+              "pattern_seeker",
+              "doomer"
+            ],
+            "outgoing_targets": [
+              "mainstream_public"
+            ],
+            "incoming_influences": [
+              {
+                "source": "amplifier_influencer",
+                "weight": 0.85,
+                "channel": "external_broadcast",
+                "source_activation": 0.4826,
+                "raw_weighted_signal": 0.4102
+              },
+              {
+                "source": "pattern_seeker",
+                "weight": 0.7,
+                "channel": "peer_contagion",
+                "source_activation": 0.3889,
+                "raw_weighted_signal": 0.2722
+              },
+              {
+                "source": "doomer",
+                "weight": 0.65,
+                "channel": "peer_contagion",
+                "source_activation": 0.3969,
+                "raw_weighted_signal": 0.258
+              }
+            ],
+            "outgoing_influences": [
+              {
+                "target": "mainstream_public",
+                "weight": 0.45,
+                "channel": "peer_contagion"
+              }
+            ]
+          },
+          "external_media_broadcast": {
+            "node_id": "external_media_broadcast",
+            "label": "External Media Broadcast",
+            "node_type": "external_channel",
+            "activation": 0.3407,
+            "activation_pct": 34.1,
+            "raw_influence": 0.3407,
+            "raw_external_inflow": 0.0,
+            "raw_internal_inflow": 0.0,
+            "inbound_weight_sum": 0.0,
+            "activation_mode": "instantaneous_per_iteration",
+            "base_weight": 1.3,
+            "source_baseline": 0.3407,
+            "external_contribution": 0.0,
+            "internal_contribution": 0.0,
+            "input_contributions": null,
+            "calculation_basis": "Instantaneous exogenous broadcast activation: 0.5·T(Amplifier) + 0.5·T(Institutional). Bounded in [0.0, 1.0]; has 0 inbound network edges.",
+            "incoming_sources": [],
+            "outgoing_targets": [
+              "institutional_analyst",
+              "amplifier_influencer",
+              "mainstream_public"
+            ],
+            "incoming_influences": [],
+            "outgoing_influences": [
+              {
+                "target": "institutional_analyst",
+                "weight": 0.85,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "amplifier_influencer",
+                "weight": 0.75,
+                "channel": "external_broadcast"
+              },
+              {
+                "target": "mainstream_public",
+                "weight": 0.4,
+                "channel": "external_broadcast"
+              }
+            ]
+          }
+        }
+      },
+      "macro_state": {
+        "iteration": 3,
+        "p_external": 0.0306,
+        "q_internal": 0.2663,
+        "M_potential": 1.0,
+        "c_churn": 0.08,
+        "cumulative_adoption": 0.1392,
+        "active_adoption": 0.1273,
+        "adoption_velocity": 0.0428,
+        "attention_indicator": 0.6405,
+        "attention_vs_adoption_ratio": 5.03,
+        "dt": 1.0,
+        "initial_n0": 0.0154,
+        "formula_derivation": "p=0.0306 (from Meso ext_score 0.412: 0.01 + 0.05*ext); q=0.2663 (from Meso int_score 0.332: 0.15 + 0.35*int); M=1.00; c=0.080; dt=1.0; N(0)=0.0154; valid_micro=10",
+        "assumptions_and_limitations": "Mean-field modified Bass differential equation assuming homogeneous sub-segment mixing; parameters p and q are derived from synthetic Micro/Meso states and represent model sensitivity projections rather than empirical certainty."
+      },
+      "feedback_state": {
+        "iteration": 3,
+        "macro_summary": "Active adoption reached 12.7% of population (expanding steadily, net velocity: +0.043/cycle, churn: 8.0%). Attention Index is at 64.0% (High Media Hype (Conversational buzz drastically outpaces behavioral adoption)). Network polarization index is 0.50. Evidence audit: 4 supported, 6 inferred, 0 unverified.",
+        "dominant_framing": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+        "polarization_index": 0.4989,
+        "prompt_context_for_next_round": "SIMULATION_FINAL_CYCLE",
+        "claim_verification_audit": {
+          "supported": 4,
+          "inferred": 6,
+          "unsupported": 0,
+          "total_interpretations": 10,
+          "failed_interpretations": 0
+        },
+        "drift_metrics": {
+          "stance_drift": -0.105,
+          "credibility_drift": -0.042,
+          "uncertainty_drift": -0.015,
+          "activation_drift": 0.0097,
+          "adoption_drift": 0.0428,
+          "attention_drift": -0.0225
+        },
+        "iteration_change_summary": "Iteration 3 vs Iteration 2: Mean stance shifted -0.105, credibility -0.042, uncertainty -0.015, active adoption +4.3%, attention -2.2%. Change driven by injected Round 2 macro consensus, claim audit, and Bass imitation/churn integration.",
+        "amplification_warning": false,
+        "warning_details": null
+      }
+    }
+  ],
+  "model_agreement_score": 0.5772,
+  "model_agreement_details": {
+    "available": true,
+    "score": 0.5772,
+    "valid_pairs": 5,
+    "total_archetypes": 5,
+    "stance_agreement": 0.7367,
+    "stance_correlation": -0.0778,
+    "tag_semantic_similarity": 0.2049,
+    "formula": "0.70 * mean(1 - |stance_A - stance_B|/2) + 0.30 * mean(Jaccard_tag_and_claim_tokens)",
+    "reason": null
+  },
+  "narrative_convergence_score": 0.0,
+  "narrative_convergence_details": {
+    "available": true,
+    "score": 0.0,
+    "var_initial": 0.165,
+    "var_final": 0.2489,
+    "direction": "diverging_polarizing",
+    "formula": "1 - (Var(stance_K) / Var(stance_1)) for shrinking variance; 0.0 if variance expands (polarization).",
+    "reason": null
+  },
+  "dominant_narrative": "A high-profile personal scandal involving NVIDIA's CEO has triggered a federal investigation, with US intelligence alleging espionage ties to the woman involved in the affair.",
+  "trajectory": {
+    "iterations": [
+      1,
+      2,
+      3
+    ],
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "cumulative_adoption": [
+      0.0494,
+      0.0896,
+      0.1392
+    ],
+    "active_adoption": [
+      0.0482,
+      0.0845,
+      0.1273
+    ],
+    "adoption_velocity": [
+      0.0328,
+      0.0363,
+      0.0428
+    ],
+    "attention_indicator": [
+      0.6887,
+      0.663,
+      0.6405
+    ],
+    "churn_loss": [
+      0.0039,
+      0.0068,
+      0.0102
+    ],
+    "churn_volume": [
+      0.0039,
+      0.0068,
+      0.0102
+    ]
+  },
+  "timestamp": "2026-11-11T06:00:28.047463Z",
+  "status": "completed",
+  "status_details": "All 30/30 archetype interpretations succeeded.",
+  "successful_interpretations_count": 30,
+  "expected_interpretations_count": 30,
+  "failed_models": [],
+  "model_diagnostics": [
+    {
+      "iteration": 1,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1908,
+      "thinking_length": 0,
+      "duration_sec": 25.511,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1668,
+      "thinking_length": 0,
+      "duration_sec": 17.653,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1793,
+      "thinking_length": 0,
+      "duration_sec": 18.055,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1922,
+      "thinking_length": 0,
+      "duration_sec": 18.891,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1538,
+      "thinking_length": 0,
+      "duration_sec": 16.686,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1547,
+      "thinking_length": 0,
+      "duration_sec": 19.939,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1340,
+      "thinking_length": 0,
+      "duration_sec": 13.099,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1365,
+      "thinking_length": 0,
+      "duration_sec": 13.352,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1573,
+      "thinking_length": 0,
+      "duration_sec": 14.482,
+      "recovered": false
+    },
+    {
+      "iteration": 1,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1346,
+      "thinking_length": 0,
+      "duration_sec": 12.897,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1752,
+      "thinking_length": 0,
+      "duration_sec": 23.089,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1747,
+      "thinking_length": 0,
+      "duration_sec": 18.215,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1930,
+      "thinking_length": 0,
+      "duration_sec": 19.125,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1626,
+      "thinking_length": 0,
+      "duration_sec": 17.059,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1898,
+      "thinking_length": 0,
+      "duration_sec": 19.62,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1575,
+      "thinking_length": 0,
+      "duration_sec": 14.244,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1546,
+      "thinking_length": 0,
+      "duration_sec": 14.988,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1500,
+      "thinking_length": 0,
+      "duration_sec": 14.213,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1752,
+      "thinking_length": 0,
+      "duration_sec": 15.721,
+      "recovered": false
+    },
+    {
+      "iteration": 2,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1237,
+      "thinking_length": 0,
+      "duration_sec": 12.65,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 2110,
+      "thinking_length": 0,
+      "duration_sec": 25.073,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1648,
+      "thinking_length": 0,
+      "duration_sec": 17.093,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1946,
+      "thinking_length": 0,
+      "duration_sec": 19.353,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "doomer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1953,
+      "thinking_length": 0,
+      "duration_sec": 19.838,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_a",
+      "model_name": "qwen3.5:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1877,
+      "thinking_length": 0,
+      "duration_sec": 19.214,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "institutional_analyst",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1087,
+      "thinking_length": 0,
+      "duration_sec": 11.705,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "skeptic_debunker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1307,
+      "thinking_length": 0,
+      "duration_sec": 12.964,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "pattern_seeker",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1446,
+      "thinking_length": 0,
+      "duration_sec": 14.199,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "doomer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1323,
+      "thinking_length": 0,
+      "duration_sec": 12.993,
+      "recovered": false
+    },
+    {
+      "iteration": 3,
+      "archetype": "amplifier_influencer",
+      "model_slot": "model_b",
+      "model_name": "gemma3:4b",
+      "provider": "ollama",
+      "execution_status": "success",
+      "error_category": null,
+      "error_message": null,
+      "retry_count": 0,
+      "finish_reason": "stop",
+      "response_length": 1085,
+      "thinking_length": 0,
+      "duration_sec": 11.97,
+      "recovered": false
+    }
+  ],
+  "diagnostics": {
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "vram_total_mb": 8151.0,
+      "vram_used_mb": 3973.0,
+      "vram_free_mb": 3919.0,
+      "driver_version": "596.13",
+      "verified": true,
+      "sequential_recommended": true,
+      "details": "NVIDIA GeForce RTX 5070 Laptop GPU (8151 MB VRAM, 3919 MB free). Sequential execution recommended."
+    },
+    "selected_models": {
+      "model_a": {
+        "provider": "ollama",
+        "model": "qwen3.5:4b"
+      },
+      "model_b": {
+        "provider": "ollama",
+        "model": "gemma3:4b"
+      }
+    },
+    "is_mock_only": false,
+    "inference_duration_sec": 520.19,
+    "sequential_execution": true,
+    "provider_errors": []
+  }
+}
